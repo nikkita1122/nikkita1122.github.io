@@ -710,10 +710,14 @@
   "family": "Sittidae",
   "description": "6.1 in, Noisy. Nests in tree cavities. They derive their English name from the tendency of some species to wedge large insects or seeds into cracks, and then hack at them with their strong bills.",
   "conservation status": "Least Concern",
-  "image": "https://www.allaboutbirds.org/guide/assets/photo/68039391-480px.jpg",
+  "image": "images/species/041-sitta-carolinensis.webp",
   "active": true,
   "hidden_reason": "",
-  "ca_status": "native"
+  "ca_status": "native",
+  "image_source": "iNaturalist",
+  "image_license": "cc-by-nc",
+  "image_credit": "(c) Mark McKnight, some rights reserved (CC BY-NC), uploaded by Mark McKnight",
+  "image_origin": "https://inaturalist-open-data.s3.amazonaws.com/photos/30827676/original.jpg"
  },
  {
   "type": "Bird",
@@ -825,10 +829,14 @@
   "family": "Picidae",
   "description": "",
   "conservation status": "Least Concern",
-  "image": "https://www.allaboutbirds.org/guide/assets/photo/68929631-480px.jpg",
+  "image": "images/species/048-dryobates-nuttallii.webp",
   "active": true,
   "hidden_reason": "",
-  "ca_status": "native"
+  "ca_status": "native",
+  "image_source": "iNaturalist",
+  "image_license": "cc-by",
+  "image_credit": "(c) Mike Baird, some rights reserved (CC BY)",
+  "image_origin": "https://inaturalist-open-data.s3.amazonaws.com/photos/1273/original.jpg"
  },
  {
   "type": "Bird",
@@ -2697,10 +2705,14 @@
   "family": "Rallidae",
   "description": "The California black rail is a subspecies of black rail, a mouse-sized member of the rail family Rallidae that occurs in both North and South America. It can be found  found in both fresh and salt water marshes of California and Arizona, and is a resident species. The California rail can be distinguished from other subspecies by its shorter bill, and brown crown and upper back. The California Fish and Game Commission listed  L. j. coturniculus as Threatened in 1971 due to loss of wetland habitat. Black rails usually weigh 29–39 g, are 10–15 cm in length, and have a wingspan of 8.7–11.0 in (22–28 cm).[14] The body is dark, with white speckles along the back and wings. Both the beak and legs are dark. Adults have a red eye that appears around 3 months of age. The life span of the Black Rail is estimated to be 5–9 years. In North America, it has a distinctive ki-ki-krr call. This is primarily uttered during the night, when these birds are most vocal.",
   "conservation status": "Endangered",
-  "image": "https://www.allaboutbirds.org/guide/assets/photo/303207361-480px.jpg",
+  "image": "images/species/159-laterallus-jamaicensis-coturniculus.webp",
   "active": true,
   "hidden_reason": "",
-  "ca_status": "not listed"
+  "ca_status": "not listed",
+  "image_source": "Wikipedia/Commons",
+  "image_license": "see Commons file page",
+  "image_credit": "Wikimedia Commons, lead image of en.wikipedia 'Black rail'",
+  "image_origin": "https://upload.wikimedia.org/wikipedia/commons/1/10/Laterallus_jamaicensis_-_Black_Rail%3B_Arari%2C_Maranh%C3%A3o%2C_Brazil.jpg"
  },
  {
   "type": "Bird",

@@ -138,3 +138,40 @@ function updateFilteredFlashcards() {
 
   filteredFlashcards = flashcards.filter(card => allowedTypes.has(card['type']));
 }
+
+
+// ⌨️ Keyboard shortcuts
+//   space        -> reveal / hide the species card   (same as ✔)
+//   right arrow  -> next species                     (same as ➜)
+//   i            -> toggle the longer description    (same as the ℹ icon)
+//                   only while the species card is showing
+document.addEventListener('keydown', event => {
+
+  // never hijack typing
+  const tag = (event.target.tagName || '').toLowerCase();
+  if (tag === 'input' || tag === 'textarea' || event.target.isContentEditable) return;
+  if (event.metaKey || event.ctrlKey || event.altKey) return;
+
+  const definitionVisible = definitionEl.style.display === 'block';
+
+  switch (event.key) {
+
+    case ' ':
+    case 'Spacebar':
+      event.preventDefault();          // stop the page scrolling
+      checkBtn.click();
+      break;
+
+    case 'ArrowRight':
+      event.preventDefault();
+      nextBtn.click();
+      break;
+
+    case 'i':
+    case 'I':
+      if (!definitionVisible) return;  // nothing to expand yet
+      event.preventDefault();
+      definitionEl.querySelector('.info-icon')?.click();
+      break;
+  }
+});
