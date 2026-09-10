@@ -169,3 +169,21 @@ body.popup-active::after {
   display: block;
   
 }
+
+.non-native {
+  margin: 0.6em 0 0;
+  padding: 4px 9px;
+  display: inline-block;
+  font-size: 0.78em;
+  color: #8a4b23;
+  background: #f6e9df;
+  border-radius: 4px;
+}
+
+.credit {
+  margin: 0.9em 0 0;
+  font-size: 0.72em;
+  line-height: 1.35;
+  color: #888;
+  text-align: left;
+}

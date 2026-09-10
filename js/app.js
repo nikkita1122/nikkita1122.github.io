@@ -23,8 +23,9 @@ const categoryMap = {
 fetch('js/flashcards-data.json')
   .then(res => res.json())
   .then(data => {
-    // Fix: use 'image' instead of old 'flashcards' column
-    flashcards = data.filter(item => item['image']?.trim());
+    // an image is required, and records flagged active:false stay in the
+    // dataset but out of the deck
+    flashcards = data.filter(item => item['image']?.trim() && item.active !== false);
     filteredFlashcards = [...flashcards]; // Start with all flashcards
     showRandomCard();
   })
@@ -56,6 +57,16 @@ const statusText = status && status.trim() !== '' ? ` ● ${status}` : '';
 const commonName = current['common name'];
 const description = current['description'] || '';
 
+// species introduced to California are kept, but labelled as such
+const nonNative = current['non_native']
+  ? '<p class="non-native">Introduced to California &mdash; not a native species.</p>'
+  : '';
+
+// CC licences require credit, so it travels with the photo
+const credit = current['image_credit']
+  ? `<p class="credit">Photo: ${current['image_credit']}</p>`
+  : '';
+
 definitionEl.innerHTML = `
   <div style="display: flex; align-items: center; justify-content: space-between;">
     <h3 style="margin: 0 auto; text-align: center">${commonName}</h3>
@@ -63,7 +74,9 @@ definitionEl.innerHTML = `
   </div>
   <p><em>${sciName}${statusText}</em></p>
  <div class="description-box" style="display: none; margin-top: 0.5em; font-size: 0.9em; line-height: 1.4; text-align: justify;">
+   ${nonNative}
    ${description}
+   ${credit}
   </div>
 `;
 
