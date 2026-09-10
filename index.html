@@ -15,39 +15,76 @@
 </head>
 
 <body>
-    <!-- 🌸 Category Buttons -->
+
+    <!-- Category filter -->
     <div class="category-buttons">
-        <button class="category-button" data-category="plantfungus">🌸</button>
-        <button class="category-button" data-category="mammal">🐻</button>
-        <button class="category-button" data-category="bird">🐤</button>
-        <button class="category-button" data-category="reptileamphibian">🐸</button>
-        <button class="category-button" data-category="insectarachnid">🐞</button>
-        <button class="category-button" data-category="aquatic">🐟</button>
+        <button class="category-button" data-category="plantfungus" title="Plants &amp; fungi" aria-label="Plants and fungi">🌸</button>
+        <button class="category-button" data-category="mammal" title="Mammals" aria-label="Mammals">🐻</button>
+        <button class="category-button" data-category="bird" title="Birds" aria-label="Birds">🐤</button>
+        <button class="category-button" data-category="reptileamphibian" title="Reptiles &amp; amphibians" aria-label="Reptiles and amphibians">🐸</button>
+        <button class="category-button" data-category="insectarachnid" title="Insects &amp; arachnids" aria-label="Insects and arachnids">🐞</button>
+        <button class="category-button" data-category="aquatic" title="Fish" aria-label="Fish">🐟</button>
     </div>
 
-    <!-- Flashcard Term -->
-    <div class="term">
-        <h3>term</h3>
-    </div>
 
-    <!-- Flashcard Definition -->
-    <div class="definition">
-        <h3>definition</h3>
-    </div>
+    <!-- One card: photo, then species information -->
+    <main class="card">
+        <div class="term"></div>
+        <div class="definition"></div>
+    </main>
 
-    <!-- Bottom Buttons -->
+
+    <!-- Controls -->
     <div class="button">
-         <button class="help">?</button>
-        <button class="check">✔</button>
-        <button class="next">➜</button>
+        <button class="help" aria-label="How this works">?</button>
+        <button class="check" data-key="Space">✔</button>
+        <button class="next" data-key="→">➜</button>
     </div>
 
-    <!-- Flashcard Container (if you're dynamically creating flashcards) -->
-    <div id="flashcard-container" class="flashcard-grid"></div>
 
-    <!-- Scripts -->
+    <!-- Help -->
+    <div class="modal-backdrop" id="helpModal" hidden>
+        <div class="modal" role="dialog" aria-modal="true" aria-labelledby="helpTitle">
+
+            <button class="modal-close" id="helpClose" aria-label="Close">✕</button>
+
+            <h2 id="helpTitle">How this works</h2>
+            <p>A random California species appears. Try to name it, then reveal the answer.</p>
+
+            <h3>Filter by group</h3>
+            <dl>
+                <dt>🌸</dt><dd>Plants &amp; fungi</dd>
+                <dt>🐻</dt><dd>Mammals</dd>
+                <dt>🐤</dt><dd>Birds</dd>
+                <dt>🐸</dt><dd>Reptiles &amp; amphibians</dd>
+                <dt>🐞</dt><dd>Insects &amp; arachnids</dd>
+                <dt>🐟</dt><dd>Fish</dd>
+            </dl>
+            <p style="margin-top:10px">Pick as many as you like. With none selected you get everything.</p>
+
+            <h3>Buttons</h3>
+            <dl class="btn-legend">
+                <dt>✔</dt><dd>Reveal the species &mdash; name, scientific name and status</dd>
+                <dt>➜</dt><dd>Next species</dd>
+                <dt>ℹ</dt><dd>Expand the longer description (appears once revealed)</dd>
+            </dl>
+
+            <h3>Keyboard</h3>
+            <dl class="btn-legend">
+                <dt><kbd>space</kbd></dt><dd>Reveal / hide</dd>
+                <dt><kbd>&rarr;</kbd></dt><dd>Next species</dd>
+                <dt><kbd>i</kbd></dt><dd>Expand the description</dd>
+            </dl>
+
+            <h3>Photographs</h3>
+            <p>Every photo is openly licensed and credited on the card. Species
+               introduced to California are included but labelled as such.</p>
+
+        </div>
+    </div>
+
+
     <script src="js/app.js"></script>
 
-    
 </body>
 </html>

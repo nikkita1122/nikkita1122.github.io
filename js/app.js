@@ -50,6 +50,13 @@ function showRandomCard() {
            class="flashcard-img">
     </div>`;
 
+  // fade in once decoded, so there is no flash of empty frame
+  const cardImg = termEl.querySelector('.flashcard-img');
+  if (cardImg) {
+    if (cardImg.complete && cardImg.naturalWidth) cardImg.classList.add('loaded');
+    else cardImg.addEventListener('load', () => cardImg.classList.add('loaded'), { once: true });
+  }
+
   const sciName = current['scientific name'];
 const status = current['conservation status'];
 const statusText = status && status.trim() !== '' ? ` ● ${status}` : '';
@@ -68,26 +75,28 @@ const credit = current['image_credit']
   : '';
 
 definitionEl.innerHTML = `
-  <div style="display: flex; align-items: center; justify-content: space-between;">
-    <h3 style="margin: 0 auto; text-align: center">${commonName}</h3>
-    <img src="info.png" alt="Info" class="info-icon" title="More info" style="width: 20px; height: 20px; cursor: pointer; margin-left: 10px;">
+  <div class="species-head">
+    <h3>${commonName}</h3>
+    <img src="info.png" alt="More information" class="info-icon" title="More information">
   </div>
   <p><em>${sciName}${statusText}</em></p>
- <div class="description-box" style="display: none; margin-top: 0.5em; font-size: 0.9em; line-height: 1.4; text-align: justify;">
-   ${nonNative}
-   ${description}
-   ${credit}
-  </div>
+  ${nonNative}
+  <div class="description-box" hidden>${description}</div>
+  ${credit}
 `;
 
 const infoIcon = definitionEl.querySelector('.info-icon');
   const descriptionBox = definitionEl.querySelector('.description-box');
 
   if (infoIcon && descriptionBox) {
-    infoIcon.addEventListener('click', () => {
-      const isVisible = descriptionBox.style.display === 'block';
-      descriptionBox.style.display = isVisible ? 'none' : 'block';
-    });
+    // an empty description has nothing to reveal
+    if (!description.trim()) {
+      infoIcon.style.display = 'none';
+    } else {
+      infoIcon.addEventListener('click', () => {
+        descriptionBox.hidden = !descriptionBox.hidden;
+      });
+    }
   }
 
 }
@@ -152,6 +161,9 @@ document.addEventListener('keydown', event => {
   if (tag === 'input' || tag === 'textarea' || event.target.isContentEditable) return;
   if (event.metaKey || event.ctrlKey || event.altKey) return;
 
+  // the modal owns the keyboard while it is open
+  if (!document.getElementById('helpModal').hidden) return;
+
   const definitionVisible = definitionEl.style.display === 'block';
 
   switch (event.key) {
@@ -174,4 +186,34 @@ document.addEventListener('keydown', event => {
       definitionEl.querySelector('.info-icon')?.click();
       break;
   }
+});
+
+
+// ❓ Help modal
+const helpBtn    = document.querySelector('.help');
+const helpModal  = document.getElementById('helpModal');
+const helpClose  = document.getElementById('helpClose');
+let lastFocused  = null;
+
+function openHelp() {
+  lastFocused = document.activeElement;
+  helpModal.hidden = false;
+  helpClose.focus();
+}
+
+function closeHelp() {
+  helpModal.hidden = true;
+  if (lastFocused) lastFocused.focus();
+}
+
+helpBtn.addEventListener('click', openHelp);
+helpClose.addEventListener('click', closeHelp);
+
+// clicking the dimmed area closes; clicking the panel itself does not
+helpModal.addEventListener('click', event => {
+  if (event.target === helpModal) closeHelp();
+});
+
+document.addEventListener('keydown', event => {
+  if (event.key === 'Escape' && !helpModal.hidden) closeHelp();
 });
