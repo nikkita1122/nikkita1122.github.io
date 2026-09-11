@@ -110,6 +110,14 @@ const statusText = status && status.trim() !== '' ? ` ● ${status}` : '';
 const commonName = current['common name'];
 const description = current['description'] || '';
 
+// lifespan | size | weight, in that order, under the scientific name
+const stats = ['lifespan', 'size', 'weight']
+  .map(k => current[k])
+  .filter(Boolean)
+  .map(v => `<span>${v}</span>`)
+  .join('');
+const statLine = stats ? `<p class="stats">${stats}</p>` : '';
+
 // species introduced to California are kept, but labelled as such
 const nonNative = current['non_native']
   ? '<p class="non-native">Introduced to California &mdash; not a native species.</p>'
@@ -126,6 +134,7 @@ definitionEl.innerHTML = `
     <img src="info.png" alt="More information" class="info-icon" title="More information">
   </div>
   <p><em>${sciName}${statusText}</em></p>
+  ${statLine}
   ${nonNative}
   <div class="description-box" hidden>${description}</div>
   ${credit}

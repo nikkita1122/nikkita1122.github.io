@@ -256,7 +256,9 @@
   "image_credit": "Wikimedia Commons, lead image of en.wikipedia 'Black-tailed jackrabbit'",
   "image_origin": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Black-tailed_Jack_Rabbit_%28Lepus_californicus%29.jpg",
   "gbif_key": 2436801,
-  "gbif_confidence": 99
+  "gbif_confidence": 99,
+  "size": "~2 ft (0.61 m)",
+  "weight": "3.1-6 lbs (1.4-2.7 kg)"
  },
  {
   "type": "Bird",
@@ -291,7 +293,7 @@
   "order": "Passeriformes",
   "family": "Hirundinidae",
   "genus": "Petrochelidon",
-  "description": "0.67 -1.09 lbs. 5.1 in. Cliff swallows are extremely social songbirds that can be found in large nesting colonies reaching over 2,000 nests. Males and females look almost identical. ",
+  "description": "Cliff swallows are extremely social songbirds that can be found in large nesting colonies reaching over 2,000 nests. Males and females look almost identical.",
   "conservation status": "Least Concern",
   "image": "images/species/012-petrochelidon-pyrrhonota.webp",
   "active": true,
@@ -302,7 +304,9 @@
   "image_credit": "Wikimedia Commons, lead image of en.wikipedia 'Cliff swallow'",
   "image_origin": "https://upload.wikimedia.org/wikipedia/commons/3/34/Petrochelidon_pyrrhonota_-flight_-Palo_Alto_Baylands-8.jpg",
   "gbif_key": 2489169,
-  "gbif_confidence": 99
+  "gbif_confidence": 99,
+  "size": "~5.1 in (13 cm)",
+  "weight": "0.67-1.1 lbs (0.3-0.49 kg)"
  },
  {
   "type": "Mammal",
@@ -590,7 +594,7 @@
   "order": "Carnivora",
   "family": "Phocidae",
   "genus": "Phoca",
-  "description": "Weigh up to 370 lbs. Females live longer than males (35 vs 25 years). They can be found on both the Pacific and Atlantic coast.",
+  "description": "Females live longer than males (35 vs 25 years). They can be found on both the Pacific and Atlantic coast.",
   "conservation status": "Least Concern",
   "image": "images/species/025-phoca-vitulina.webp",
   "active": true,
@@ -601,7 +605,8 @@
   "image_credit": "(c) Dan Roach, some rights reserved (CC BY-NC), uploaded by Dan Roach",
   "image_origin": "https://inaturalist-open-data.s3.amazonaws.com/photos/65061739/original.jpg",
   "gbif_key": 2434793,
-  "gbif_confidence": 99
+  "gbif_confidence": 99,
+  "weight": "100-370 lbs (45-168 kg)"
  },
  {
   "type": "Mammal",
@@ -670,7 +675,8 @@
   "image_credit": "(c) Matthew Zalewski, some rights reserved (CC BY-SA)",
   "image_origin": "https://inaturalist-open-data.s3.amazonaws.com/photos/323305753/original.jpg",
   "gbif_key": 8600904,
-  "gbif_confidence": 98
+  "gbif_confidence": 98,
+  "weight": "700-1200 lbs (318-544 kg)"
  },
  {
   "type": "Mammal",
@@ -716,7 +722,8 @@
   "image_credit": "",
   "image_origin": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Rocky_Mountain_Bull_Elk.jpg/1280px-Rocky_Mountain_Bull_Elk.jpg",
   "gbif_key": 8600904,
-  "gbif_confidence": 98
+  "gbif_confidence": 98,
+  "weight": "500-750 lbs (227-340 kg)"
  },
  {
   "type": "Mammal",
@@ -808,7 +815,10 @@
   "image_credit": "",
   "image_origin": "https://www.sdakotabirds.com/species/photos/common_nighthawk_1.jpg",
   "gbif_key": 2497035,
-  "gbif_confidence": 99
+  "gbif_confidence": 99,
+  "lifespan": "~4 years",
+  "size": "8.7-9.8 in (22-25 cm)",
+  "weight": "1.9-3.5 oz (54-99 g)"
  },
  {
   "type": "Mammal",
@@ -831,7 +841,9 @@
   "image_credit": "",
   "image_origin": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Ochotona_princeps_rockies.JPG/500px-Ochotona_princeps_rockies.JPG",
   "gbif_key": 2436982,
-  "gbif_confidence": 99
+  "gbif_confidence": 99,
+  "size": "6.4-8.5 in (16-22 cm)",
+  "weight": "~6 oz (170 g)"
  },
  {
   "type": "Mammal",
@@ -843,7 +855,7 @@
   "order": "Carnivora",
   "family": "Procyonidae",
   "genus": "Bassariscus",
-  "description": "12–17 in long with a tail about the same length as its body. It weighs 1.4 - 3.3 lbs. ",
+  "description": "12–17 in long with a tail about the same length as its body.",
   "conservation status": "Least Concern",
   "image": "images/species/036-bassariscus-astutus.webp",
   "active": true,
@@ -854,7 +866,9 @@
   "image_credit": "",
   "image_origin": "https://landmarkwildlife.com/wp-content/uploads/2024/08/Ringtail.Cat_.At_.Night_.png",
   "gbif_key": 2433557,
-  "gbif_confidence": 99
+  "gbif_confidence": 99,
+  "size": "12-17 in (30-43 cm)",
+  "weight": "1.4-3.3 lbs (0.64-1.5 kg)"
  },
  {
   "type": "Mammal",
@@ -866,7 +880,7 @@
   "order": "Carnivora",
   "family": "Mephitidae",
   "genus": "Spilogale",
-  "description": "14–18 in. Smaller than the striped skunk. ",
+  "description": "Smaller than the striped skunk.",
   "conservation status": "Least Concern",
   "image": "images/species/037-spilogale-gracilis.webp",
   "active": true,
@@ -877,7 +891,8 @@
   "image_credit": "",
   "image_origin": "https://inaturalist-open-data.s3.amazonaws.com/photos/2445531/large.jpg",
   "gbif_key": 2434835,
-  "gbif_confidence": 99
+  "gbif_confidence": 99,
+  "size": "14-18 in (36-46 cm)"
  },
  {
   "type": "Bird",
@@ -923,7 +938,9 @@
   "image_credit": "Wikimedia Commons, lead image of en.wikipedia 'Allen's hummingbird'",
   "image_origin": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Allen%27s_Hummingbird_Selasphorus_sasin_%2832540935410%29.jpg",
   "gbif_key": 2476852,
-  "gbif_confidence": 99
+  "gbif_confidence": 99,
+  "size": "3-3.5 in (7.6-8.9 cm)",
+  "weight": "0.071-0.14 oz (2-4 g)"
  },
  {
   "type": "Bird",
@@ -935,7 +952,7 @@
   "order": "Passeriformes",
   "family": "Corvidae",
   "genus": "Aphelocoma",
-  "description": "11–12 in long, 15 inn wingspan, 2.8 oz. Recent research has suggested that western scrub jays, along with several other corvids, are among the most intelligent of animals. The brain-to-body mass ratio of adult scrub jays rivals that of chimpanzees and cetaceans. Jays are able to mimic raptors like red-tailed and red-shouldered hawks with such accuracy that is can be difficult to distinguish between species using calls alone.",
+  "description": "They have a 15 inch wingspan. Recent research has suggested that western scrub jays, along with several other corvids, are among the most intelligent of animals. The brain-to-body mass ratio of adult scrub jays rivals that of chimpanzees and cetaceans. Jays are able to mimic raptors like red-tailed and red-shouldered hawks with such accuracy that is can be difficult to distinguish between species using calls alone.",
   "conservation status": "Least Concern",
   "image": "images/species/040-aphelocoma-californica.webp",
   "active": true,
@@ -946,7 +963,9 @@
   "image_credit": "Wikimedia Commons, lead image of en.wikipedia 'California scrub jay'",
   "image_origin": "https://upload.wikimedia.org/wikipedia/commons/c/c8/California_Scrub_Jay%2C_Richmond%2C_Contra_Costa%2C_California_%2830644196597%29.jpg",
   "gbif_key": 2482414,
-  "gbif_confidence": 99
+  "gbif_confidence": 99,
+  "size": "11-12 in (28-30 cm)",
+  "weight": "~2.8 oz (79 g)"
  },
  {
   "type": "Bird",
@@ -958,7 +977,7 @@
   "order": "Passeriformes",
   "family": "Sittidae",
   "genus": "Sitta",
-  "description": "6.1 in, Noisy. Nests in tree cavities. They derive their English name from the tendency of some species to wedge large insects or seeds into cracks, and then hack at them with their strong bills.",
+  "description": "Noisy. Nests in tree cavities. They derive their English name from the tendency of some species to wedge large insects or seeds into cracks, and then hack at them with their strong bills.",
   "conservation status": "Least Concern",
   "image": "images/species/041-sitta-carolinensis.webp",
   "active": true,
@@ -969,7 +988,8 @@
   "image_credit": "(c) Mark McKnight, some rights reserved (CC BY-NC), uploaded by Mark McKnight",
   "image_origin": "https://inaturalist-open-data.s3.amazonaws.com/photos/30827676/original.jpg",
   "gbif_key": 2484892,
-  "gbif_confidence": 99
+  "gbif_confidence": 99,
+  "size": "~6.1 in (15 cm)"
  },
  {
   "type": "Bird",
@@ -1143,7 +1163,7 @@
   "order": "Passeriformes",
   "family": "Passerellidae",
   "genus": "Pipilo",
-  "description": "6.7 in - 8.3 in, 1.2 - 1.7 oz . They nest either on the ground or low in bushes, seldom more than 1.5 m (4.9 ft) above the ground[",
+  "description": "They nest either on the ground or low in bushes, seldom more than 1.5 m (4.9 ft) above the ground[",
   "conservation status": "Least Concern",
   "image": "images/species/049-pipilo-maculatus.webp",
   "active": true,
@@ -1154,7 +1174,9 @@
   "image_credit": "(c) Nigel Voaden, some rights reserved (CC BY)",
   "image_origin": "https://inaturalist-open-data.s3.amazonaws.com/photos/2373007/original.jpg",
   "gbif_key": 9709230,
-  "gbif_confidence": 99
+  "gbif_confidence": 99,
+  "size": "6.7-8.3 in (17-21 cm)",
+  "weight": "1.2-1.7 oz (34-48 g)"
  },
  {
   "type": "Bird",
@@ -1189,7 +1211,7 @@
   "order": "Passeriformes",
   "family": "Hirundinidae",
   "genus": "Hirundo",
-  "description": "0.6 - 0.7 oz",
+  "description": "",
   "conservation status": "Least Concern",
   "image": "images/species/051-hirundo-rustica.webp",
   "active": true,
@@ -1200,7 +1222,8 @@
   "image_credit": "(c) Blair Dudeck, some rights reserved (CC BY-NC), uploaded by Blair Dudeck",
   "image_origin": "https://inaturalist-open-data.s3.amazonaws.com/photos/129915927/original.jpg",
   "gbif_key": 9515886,
-  "gbif_confidence": 99
+  "gbif_confidence": 99,
+  "weight": "0.6-0.7 oz (17-20 g)"
  },
  {
   "type": "Bird",
@@ -1212,7 +1235,7 @@
   "order": "Galliformes",
   "family": "Phasianidae",
   "genus": "Centrocercus",
-  "description": "4.4 - 6.6 lbs. Greater sage-grouse are notable for their elaborate courtship rituals. Each spring, males congregate in leks and perform a \"strutting display\". Groups of females observe these displays and select the most attractive males with which to mate. The dominant male located in the center of the lek typically copulates with around 80% of the females on the lek. Males perform in leks for several hours in the early morning and evening during the spring. Males gather in leks to court, usually in late February to April. Only a few dominant males, usually two, breed. ",
+  "description": "Greater sage-grouse are notable for their elaborate courtship rituals. Each spring, males congregate in leks and perform a \"strutting display\". Groups of females observe these displays and select the most attractive males with which to mate. The dominant male located in the center of the lek typically copulates with around 80% of the females on the lek. Males perform in leks for several hours in the early morning and evening during the spring. Males gather in leks to court, usually in late February to April. Only a few dominant males, usually two, breed.",
   "conservation status": "Near Threatened",
   "image": "images/species/052-centrocercus-urophasianus.webp",
   "active": true,
@@ -1223,7 +1246,8 @@
   "image_credit": "(c) Bert Filemyr, some rights reserved (CC BY-NC), uploaded by Bert Filemyr",
   "image_origin": "https://inaturalist-open-data.s3.amazonaws.com/photos/35202960/original.jpg",
   "gbif_key": 5959240,
-  "gbif_confidence": 99
+  "gbif_confidence": 99,
+  "weight": "4.4-6.6 lbs (2-3 kg)"
  },
  {
   "type": "Bird",
@@ -1235,7 +1259,7 @@
   "order": "Gruiformes",
   "family": "Gruidae",
   "genus": "Grus",
-  "description": "7.1 -11 lbs.",
+  "description": "",
   "conservation status": "Least Concern",
   "image": "images/species/053-antigone-canadensis.webp",
   "active": true,
@@ -1246,7 +1270,8 @@
   "image_credit": "Wikimedia Commons, lead image of en.wikipedia 'Sandhill crane'",
   "image_origin": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Greater_sandhill_crane_couple.jpg",
   "gbif_key": 9036008,
-  "gbif_confidence": 98
+  "gbif_confidence": 98,
+  "weight": "7.1-11 lbs (3.2-5 kg)"
  },
  {
   "type": "Bird",
@@ -1304,7 +1329,7 @@
   "order": "Passeriformes",
   "family": "Aegithalidae",
   "genus": "Psaltriparus",
-  "description": "0.19 oz",
+  "description": "",
   "conservation status": "Least Concern",
   "image": "images/species/056-psaltriparus-minimus.webp",
   "active": true,
@@ -1315,7 +1340,8 @@
   "image_credit": "(c) Kevin Krebs, some rights reserved (CC BY-NC-SA)",
   "image_origin": "https://inaturalist-open-data.s3.amazonaws.com/photos/111125701/original.jpg",
   "gbif_key": 2494988,
-  "gbif_confidence": 99
+  "gbif_confidence": 99,
+  "weight": "~0.19 oz (5.4 g)"
  },
  {
   "type": "Bird",
@@ -1338,7 +1364,9 @@
   "image_credit": "(c) Kevin Milazzo, some rights reserved (CC BY-NC-SA)",
   "image_origin": "https://inaturalist-open-data.s3.amazonaws.com/photos/142697277/original.jpg",
   "gbif_key": 5231677,
-  "gbif_confidence": 99
+  "gbif_confidence": 99,
+  "size": "8.1-11 in (21-28 cm)",
+  "weight": "1.4-2 oz (40-57 g)"
  },
  {
   "type": "Bird",
@@ -1350,7 +1378,7 @@
   "order": "Passeriformes",
   "family": "Passerellidae",
   "genus": "Melospiza",
-  "description": "0.67 oz",
+  "description": "",
   "conservation status": "Least Concern",
   "image": "images/species/058-melospiza-melodia.webp",
   "active": true,
@@ -1361,7 +1389,8 @@
   "image_credit": "(c) Ad Konings, some rights reserved (CC BY-NC), uploaded by Ad Konings",
   "image_origin": "https://inaturalist-open-data.s3.amazonaws.com/photos/104749271/original.jpg",
   "gbif_key": 2492196,
-  "gbif_confidence": 99
+  "gbif_confidence": 99,
+  "weight": "~0.67 oz (19 g)"
  },
  {
   "type": "Mammal",
@@ -1384,7 +1413,9 @@
   "image_credit": "",
   "image_origin": "https://esrp.csustan.edu/speciesprofiles/photo/soor.jpg",
   "gbif_key": 6163345,
-  "gbif_confidence": 98
+  "gbif_confidence": 98,
+  "size": "~4 in (10 cm)",
+  "weight": "0.14-0.27 oz (4-7.7 g)"
  },
  {
   "type": "Mammal",
@@ -1465,7 +1496,7 @@
   "order": "Eulipotyphla",
   "family": "Soricidae",
   "genus": "Sorex",
-  "description": "The Suisun shrew is a subspecies of the ornate shrew that occurs in the tidal marshes of the northern shores of San Pablo and Suisun bays. Sorex ornatus sinuosus is a smallish rare subspecies of soricine shrew that is distinguished from other nearby and sympatric shrew taxa by having a darker pelage; its occurrence is strictly limited to tidal marshes near San Pablo and Suisun bays, which makes identification and differentiation straightforward. The body mass ranges from 4.5 to 6.8 grams, with a total length (including tail) of 98 to 106 mm; the tail structure itself is between 35 and 44 mm in length. Coloration is usually black, sometimes metallic. S. o. sinuosus has an elongated skull shape, that is relatively narrow and fragile. A lifespan of 16 months is considered to apply to most shrew taxa, with females surviving slightly longer than males. During winter, most shrews undergo a dramatic decrease in body mass, and second-year individuals typically die then. The skull, kidneys, and some other internal organs are actually reduced in size so as to require less nutrition intake for survival.",
+  "description": "The Suisun shrew is a subspecies of the ornate shrew that occurs in the tidal marshes of the northern shores of San Pablo and Suisun bays. Sorex ornatus sinuosus is a smallish rare subspecies of soricine shrew that is distinguished from other nearby and sympatric shrew taxa by having a darker pelage; its occurrence is strictly limited to tidal marshes near San Pablo and Suisun bays, which makes identification and differentiation straightforward. The body mass ranges from 4.5 to 6.8 grams, with a total length (including tail) of 98 to 106 mm; the tail structure itself is between 35 and 44 mm in length. Coloration is usually black, sometimes metallic. S. o. sinuosus has an elongated skull shape, that is relatively narrow and fragile. Females live slightly longer than males. During winter, most shrews undergo a dramatic decrease in body mass, and second-year individuals typically die then. The skull, kidneys, and some other internal organs are actually reduced in size so as to require less nutrition intake for survival.",
   "conservation status": "Critically Imperiled",
   "image": "images/species/063-sorex-ornatus-sinuosus.webp",
   "active": true,
@@ -1476,7 +1507,9 @@
   "image_credit": "Wikimedia Commons, lead image of en.wikipedia 'Sorex ornatus sinuosus'",
   "image_origin": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Suisin_shrew.jpg",
   "gbif_key": 6163346,
-  "gbif_confidence": 98
+  "gbif_confidence": 98,
+  "lifespan": "~16 months",
+  "weight": "0.16-0.24 oz (4.5-6.8 g)"
  },
  {
   "type": "Mammal",
@@ -1488,7 +1521,7 @@
   "order": "Eulipotyphla",
   "family": "Soricidae",
   "genus": "Sorex",
-  "description": "The Santa Catalina Island Ornate shrew (Sorex ornatus willetti) is the rarest, endemic mammal on Catalina Island. Despite extensive trapping efforts, only 40 shrews have been documented since their discovery in 1941. Due to their secretive nature, much of our knowledge of this shrew is gleaned from mainland subspecies which are easier to detect. Since the shrew’s discovery, Catalina Island has been through extensive droughts (2012-2016) and drastic habitat change following the removal of feral pigs and goats. The effects of these environmental changes on shrew distribution and survival are still unknown. The short lifespan of 12 to 16 months means that prolonged drought could have a large effect on their population size.",
+  "description": "The Santa Catalina Island Ornate shrew (Sorex ornatus willetti) is the rarest, endemic mammal on Catalina Island. Despite extensive trapping efforts, only 40 shrews have been documented since their discovery in 1941. Due to their secretive nature, much of our knowledge of this shrew is gleaned from mainland subspecies which are easier to detect. Since the shrew’s discovery, Catalina Island has been through extensive droughts (2012-2016) and drastic habitat change following the removal of feral pigs and goats. The effects of these environmental changes on shrew distribution and survival are still unknown. Their short lifespan means that prolonged drought could have a large effect on their population size.",
   "conservation status": "",
   "image": "images/species/064-sorex-ornatus-willetti.webp",
   "active": true,
@@ -1499,7 +1532,8 @@
   "image_credit": "",
   "image_origin": "https://catalinaconservancy.org/wp-content/uploads/2022/12/40795946921_03adef4ab4_k-e1671121300335.jpg",
   "gbif_key": 6163343,
-  "gbif_confidence": 98
+  "gbif_confidence": 98,
+  "lifespan": "12-16 months"
  },
  {
   "type": "Mammal",
@@ -1522,7 +1556,8 @@
   "image_credit": "(c) Doug Backlund, some rights reserved (CC BY-NC), uploaded by Doug Backlund",
   "image_origin": "https://inaturalist-open-data.s3.amazonaws.com/photos/118276197/original.jpg",
   "gbif_key": 2432339,
-  "gbif_confidence": 99
+  "gbif_confidence": 99,
+  "weight": "0.49-0.88 oz (14-25 g)"
  },
  {
   "type": "Mammal",
@@ -1534,7 +1569,7 @@
   "order": "Chiroptera",
   "family": "Vespertilionidae",
   "genus": "Corynorhinus",
-  "description": "Townsend's big-eared bat is a medium-sized bat (7–12 g) with extremely long, flexible ears, and small yet noticeable lumps on each side of the snout. Its total length is around 10 cm (4 in.), its tail being around 5 cm (2 in) and its wingspan is about 28 cm (11 in). C. townsendii can be found in Canada, Mexico, and United States. A notable colony of Townsend's is the colony currently residing on Santa Cruz Island, the area the species was originally described from and the only colony known in the Channel Islands. Originally there was a Santa Cruz colony of 300 bats known to reside in a historic ranch house, which was displaced in 1974 when the building was removed. Now there is a colony known to have resided in the Scorpion adobe building from before 1991 onwards. ",
+  "description": "Townsend's big-eared bat is a medium-sized bat with extremely long, flexible ears, and small yet noticeable lumps on each side of the snout. Its total length is around 10 cm (4 in.), its tail being around 5 cm (2 in) and its wingspan is about 28 cm (11 in). C. townsendii can be found in Canada, Mexico, and United States. A notable colony of Townsend's is the colony currently residing on Santa Cruz Island, the area the species was originally described from and the only colony known in the Channel Islands. Originally there was a Santa Cruz colony of 300 bats known to reside in a historic ranch house, which was displaced in 1974 when the building was removed. Now there is a colony known to have resided in the Scorpion adobe building from before 1991 onwards.",
   "conservation status": "Least Concern",
   "image": "images/species/066-corynorhinus-townsendii.webp",
   "active": true,
@@ -1545,7 +1580,9 @@
   "image_credit": "",
   "image_origin": "https://www.eopugetsound.org/sites/default/files/topical_article/images/wdfw01385_Page_137_Image_0001.jpg",
   "gbif_key": 2432479,
-  "gbif_confidence": 99
+  "gbif_confidence": 99,
+  "size": "~3.9 in (10 cm)",
+  "weight": "0.25-0.42 oz (7-12 g)"
  },
  {
   "type": "Mammal",
@@ -1568,7 +1605,8 @@
   "image_credit": "(c) Ian Routley, some rights reserved (CC BY-NC-SA), uploaded by Ian Routley",
   "image_origin": "https://inaturalist-open-data.s3.amazonaws.com/photos/185357871/original.jpeg",
   "gbif_key": 2432579,
-  "gbif_confidence": 99
+  "gbif_confidence": 99,
+  "weight": "~0.53 oz (15 g)"
  },
  {
   "type": "Mammal",
@@ -1683,7 +1721,8 @@
   "image_credit": "(c) Rich Hoyer, some rights reserved (CC BY-NC-SA), uploaded by Rich Hoyer",
   "image_origin": "https://inaturalist-open-data.s3.amazonaws.com/photos/13141478/original.jpg",
   "gbif_key": 2433062,
-  "gbif_confidence": 99
+  "gbif_confidence": 99,
+  "weight": "~0.73 oz (21 g)"
  },
  {
   "type": "Mammal",
@@ -1706,7 +1745,8 @@
   "image_credit": "(c) Janet Hill, some rights reserved (CC BY-NC-SA)",
   "image_origin": "https://inaturalist-open-data.s3.amazonaws.com/photos/24885787/original.jpg",
   "gbif_key": 2436794,
-  "gbif_confidence": 99
+  "gbif_confidence": 99,
+  "weight": "3.1-3.4 lbs (1.4-1.6 kg)"
  },
  {
   "type": "Mammal",
@@ -1741,7 +1781,7 @@
   "order": "Rodentia",
   "family": "Heteromyidae",
   "genus": "Perognathus",
-  "description": "The Los Angeles pocket mouse is one of the smallest species of pocket mouse weighing 8-11 grams and is about 4.5 in long.  Fur is buff above and white below, and is black tipped which gives them a “salt and pepper” appearance. They have hairs on their back toes which help them move through sandy soil. Their habitat consists of sandy soils in washes, uplands, and sand dune ecosystems. They are fossorial, meaning they burrow underground.",
+  "description": "The Los Angeles pocket mouse is one of the smallest species of pocket mouse. Fur is buff above and white below, and is black tipped which gives them a “salt and pepper” appearance. They have hairs on their back toes which help them move through sandy soil. Their habitat consists of sandy soils in washes, uplands, and sand dune ecosystems. They are fossorial, meaning they burrow underground.",
   "conservation status": "Not Listed",
   "image": "images/species/075-perognathus-longimembris-brevinasus.webp",
   "active": true,
@@ -1752,7 +1792,9 @@
   "image_credit": "",
   "image_origin": "https://www.wrc-rca.org/wp-content/uploads/2020/11/LAPM.png",
   "gbif_key": 4263128,
-  "gbif_confidence": 98
+  "gbif_confidence": 98,
+  "size": "~4.5 in (11 cm)",
+  "weight": "0.28-0.39 oz (8-11 g)"
  },
  {
   "type": "Mammal",
@@ -1798,7 +1840,9 @@
   "image_credit": "Mark Pavelka, USFWS, no known copyright restrictions (public domain)",
   "image_origin": "https://inaturalist-open-data.s3.amazonaws.com/photos/232507184/original.jpg",
   "gbif_key": 6163502,
-  "gbif_confidence": 98
+  "gbif_confidence": 98,
+  "lifespan": "3-5 years",
+  "weight": "0.25-0.33 oz (7.1-9.4 g)"
  },
  {
   "type": "Mammal",
@@ -1948,7 +1992,7 @@
   "order": "Chiroptera",
   "family": "Vespertilionidae",
   "genus": "Eptesicus",
-  "description": "The big brown bat occurs widely throughout the US, Canada, Central America, and the Caribbean. Its range extends into parts of South America, found as far south as Colombia and Venezuela. It is adaptable to many habitats and is considered a generalist species. It is a relatively large microbat, weighing 15–26 g (0.53–0.92 oz). Adult body length is 110–130 mm (4.3–5.1 in).[28] Its forearm is usually longer than 48 mm (1.9 in).[29] The tail is 47–52 millimetres (1.9–2.0 in) and the hind legs are 10 millimetres (0.39 in).[30] Its wingspan is 32.5–35 cm (12.8–13.8 in). Its dorsal fur is reddish brown and glossy in appearance; its ventral fur is lighter brown.",
+  "description": "The big brown bat occurs widely throughout the US, Canada, Central America, and the Caribbean. Its range extends into parts of South America, found as far south as Colombia and Venezuela. It is adaptable to many habitats and is considered a generalist species. It is a relatively large microbat. Adult body length is 110–130 mm (4.3–5.1 in).[28] Its forearm is usually longer than 48 mm (1.9 in).[29] The tail is 47–52 millimetres (1.9–2.0 in) and the hind legs are 10 millimetres (0.39 in).[30] Its wingspan is 32.5–35 cm (12.8–13.8 in). Its dorsal fur is reddish brown and glossy in appearance; its ventral fur is lighter brown.",
   "conservation status": "Least Concern",
   "image": "images/species/084-eptesicus-fuscus.webp",
   "active": true,
@@ -1959,7 +2003,8 @@
   "image_credit": "(c) Joe Bartok, some rights reserved (CC BY-NC), uploaded by Joe Bartok",
   "image_origin": "https://inaturalist-open-data.s3.amazonaws.com/photos/11370649/original.jpg",
   "gbif_key": 2432352,
-  "gbif_confidence": 99
+  "gbif_confidence": 99,
+  "weight": "0.53-0.92 oz (15-26 g)"
  },
  {
   "type": "Mammal",
@@ -1971,7 +2016,7 @@
   "order": "Chiroptera",
   "family": "Vespertilionidae",
   "genus": "Aeorestes",
-  "description": "The Hoary Bat lives throughout most of North America, from northern Canada south to Guatemala. The hoary bat averages 13 to 14.5 cm (5.1 to 5.7 in) long with a 40 cm (15.5 in) wingspan and a weight of 26 g (0.92 oz). It is the largest bat normally found in Canada. Its coat is dense and dark brown, with white tips to the hairs that give the species its 'hoary' appearance for which it is named. Females are 40% larger than males.  It prefers woodland, mainly coniferous forests, but hunts over open areas or lakes. It hunts alone and its main food source is moths. Hoary bats are long-distance migrants, spending the winter in Central America and the southwestern United States and the spring and summer in more northern latitudes in the United States and Canada. They suffer significant mortality from wind turbines. Across the United States in 2005, 40% of all bats killed by wind turbines were hoary bats—over 1000 hoary bats were killed in 2005.",
+  "description": "The Hoary Bat lives throughout most of North America, from northern Canada south to Guatemala. The hoary bat averages 13 to 14.5 cm (5.1 to 5.7 in) long with a 40 cm (15.5 in) wingspan and a weight of 26 g (0.92 oz). It is the largest bat normally found in Canada. Its coat is dense and dark brown, with white tips to the hairs that give the species its 'hoary' appearance for which it is named. Females are 40% larger than males. It prefers woodland, mainly coniferous forests, but hunts over open areas or lakes. It hunts alone and its main food source is moths. Hoary bats are long-distance migrants, spending the winter in Central America and the southwestern United States and the spring and summer in more northern latitudes in the United States and Canada. They suffer significant mortality from wind turbines. Across the United States in 2005, 40% of all bats killed by wind turbines were hoary bats—over 1000 hoary bats were killed in 2005.",
   "conservation status": "",
   "image": "images/species/085-lasiurus-cinereus.webp",
   "active": true,
@@ -1982,7 +2027,8 @@
   "image_credit": "Wikimedia Commons, lead image of en.wikipedia 'Hoary bat'",
   "image_origin": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Hoary_bat_Lasiurus_cinereus_%28cropped%29.jpg",
   "gbif_key": 5218544,
-  "gbif_confidence": 98
+  "gbif_confidence": 98,
+  "weight": "~0.92 oz (26 g)"
  },
  {
   "type": "Mammal",
@@ -2005,7 +2051,8 @@
   "image_credit": "",
   "image_origin": "https://static.inaturalist.org/photos/2605297/large.jpg",
   "gbif_key": 2432341,
-  "gbif_confidence": 99
+  "gbif_confidence": 99,
+  "weight": "0.28-0.42 oz (8-12 g)"
  },
  {
   "type": "Mammal",
@@ -2142,7 +2189,8 @@
   "image_credit": "(c) markc666, some rights reserved (CC BY-NC)",
   "image_origin": "https://inaturalist-open-data.s3.amazonaws.com/photos/315417861/original.jpg",
   "gbif_key": 5219311,
-  "gbif_confidence": 99
+  "gbif_confidence": 99,
+  "lifespan": "~5.5 years"
  },
  {
   "type": "Mammal",
@@ -2327,7 +2375,8 @@
   "image_credit": "(c) Mickey Long, some rights reserved (CC BY-NC), uploaded by Mickey Long",
   "image_origin": "https://inaturalist-open-data.s3.amazonaws.com/photos/935471/original.JPG",
   "gbif_key": 4262298,
-  "gbif_confidence": 98
+  "gbif_confidence": 98,
+  "lifespan": "~22 years"
  },
  {
   "type": "Mammal",
@@ -2512,7 +2561,8 @@
   "image_credit": "Wikimedia Commons, lead image of en.wikipedia 'Western fence lizard'",
   "image_origin": "https://upload.wikimedia.org/wikipedia/commons/3/30/Sceloporus_occidentalis%2C_Sacramento_County%2C_California.jpg",
   "gbif_key": 2451234,
-  "gbif_confidence": 99
+  "gbif_confidence": 99,
+  "size": "~8.3 in (21 cm)"
  },
  {
   "type": "Arachnid",
@@ -2536,7 +2586,8 @@
   "image_origin": "https://upload.wikimedia.org/wikipedia/commons/2/27/Long-legged_Sac_Spider_-_Cheiracanthium_sp.%2C_Pateros%2C_Washington.jpg",
   "gbif_key": 2164198,
   "gbif_confidence": 99,
-  "non_native": true
+  "non_native": true,
+  "size": "0.3-0.4 in (0.76-1 cm)"
  },
  {
   "type": "Plant",
@@ -2831,7 +2882,8 @@
   "image_credit": "Wikimedia Commons, lead image of en.wikipedia 'Lycianthes rantonnetii'",
   "image_origin": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Lycianthes_rantonnetii00.jpg",
   "gbif_key": 3799026,
-  "gbif_confidence": 99
+  "gbif_confidence": 99,
+  "size": "~6 ft (1.8 m)"
  },
  {
   "type": "Plant",
@@ -3015,7 +3067,8 @@
   "image_credit": "(c) miriamzaramel, some rights reserved (CC BY-NC)",
   "image_origin": "https://inaturalist-open-data.s3.amazonaws.com/photos/127162003/original.jpg",
   "gbif_key": 2928226,
-  "gbif_confidence": 97
+  "gbif_confidence": 97,
+  "size": "~40 in (102 cm)"
  },
  {
   "type": "Plant",
@@ -3061,7 +3114,8 @@
   "image_credit": "(c) smfang, some rights reserved (CC BY-NC), uploaded by smfang",
   "image_origin": "https://inaturalist-open-data.s3.amazonaws.com/photos/81130195/original.jpg",
   "gbif_key": 3188829,
-  "gbif_confidence": 99
+  "gbif_confidence": 99,
+  "size": "~6 ft (1.8 m)"
  },
  {
   "type": "Plant",
@@ -3084,7 +3138,8 @@
   "image_credit": "Wikimedia Commons, lead image of en.wikipedia 'Agapanthus praecox'",
   "image_origin": "https://upload.wikimedia.org/wikipedia/commons/6/66/Agapanthus_Postbloom.jpg",
   "gbif_key": 2854755,
-  "gbif_confidence": 99
+  "gbif_confidence": 99,
+  "lifespan": "~75 years"
  },
  {
   "type": "Plant",
@@ -3107,7 +3162,8 @@
   "image_credit": "",
   "image_origin": "https://www.gardenia.net/wp-content/uploads/2023/05/Dietes-iridioides.webp",
   "gbif_key": 2742428,
-  "gbif_confidence": 97
+  "gbif_confidence": 97,
+  "size": "12-24 in (30-61 cm)"
  },
  {
   "type": "Plant",
@@ -3287,7 +3343,8 @@
   "image_credit": "Wikimedia Commons, lead image of en.wikipedia 'Nerium'",
   "image_origin": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Nerium_oleander_flowers_leaves.jpg",
   "gbif_key": 3169756,
-  "gbif_confidence": 99
+  "gbif_confidence": 99,
+  "size": "7-20 ft (2.1-6.1 m)"
  },
  {
   "type": "Plant",
@@ -3490,7 +3547,8 @@
   "image_credit": "Wikimedia Commons, lead image of en.wikipedia 'Limestone salamander'",
   "image_origin": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Limestone_Salamander_%28Hydromantes_brunus%29.jpg",
   "gbif_key": 2431664,
-  "gbif_confidence": 99
+  "gbif_confidence": 99,
+  "size": "2-3 in (5-7.5 cm)"
  },
  {
   "type": "Amphibian",
@@ -3513,7 +3571,8 @@
   "image_credit": "Wikimedia Commons, lead image of en.wikipedia 'Black toad'",
   "image_origin": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Anaxyrus_exsul_001.jpg",
   "gbif_key": 2422884,
-  "gbif_confidence": 99
+  "gbif_confidence": 99,
+  "size": "~2 in (5 cm)"
  },
  {
   "type": "Reptile",
@@ -3628,7 +3687,8 @@
   "image_credit": "",
   "image_origin": "https://www.chesapeakebay.net/files/critters/_700x600_fit_center-center_none/20170420-IMG_2639.jpg",
   "gbif_key": 2480446,
-  "gbif_confidence": 99
+  "gbif_confidence": 99,
+  "size": "28-40 in (71-102 cm)"
  },
  {
   "type": "Bird",
@@ -3663,7 +3723,7 @@
   "order": "Gruiformes",
   "family": "Rallidae",
   "genus": "Laterallus",
-  "description": "The California black rail is a subspecies of black rail, a mouse-sized member of the rail family Rallidae that occurs in both North and South America. It can be found  found in both fresh and salt water marshes of California and Arizona, and is a resident species. The California rail can be distinguished from other subspecies by its shorter bill, and brown crown and upper back. The California Fish and Game Commission listed  L. j. coturniculus as Threatened in 1971 due to loss of wetland habitat. Black rails usually weigh 29–39 g, are 10–15 cm in length, and have a wingspan of 8.7–11.0 in (22–28 cm).[14] The body is dark, with white speckles along the back and wings. Both the beak and legs are dark. Adults have a red eye that appears around 3 months of age. The life span of the Black Rail is estimated to be 5–9 years. In North America, it has a distinctive ki-ki-krr call. This is primarily uttered during the night, when these birds are most vocal.",
+  "description": "The California black rail is a subspecies of black rail, a mouse-sized member of the rail family Rallidae that occurs in both North and South America. It can be found found in both fresh and salt water marshes of California and Arizona, and is a resident species. The California rail can be distinguished from other subspecies by its shorter bill, and brown crown and upper back. The California Fish and Game Commission listed L. j. coturniculus as Threatened in 1971 due to loss of wetland habitat. Black rails usually weigh 29–39 g, are 10–15 cm in length, and have a wingspan of 8.7–11.0 in (22–28 cm).[14] The body is dark, with white speckles along the back and wings. Both the beak and legs are dark. Adults have a red eye that appears around 3 months of age. The life span of the Black Rail is estimated to be 5–9 years. In North America, it has a distinctive ki-ki-krr call. This is primarily uttered during the night, when these birds are most vocal.",
   "conservation status": "Endangered",
   "image": "images/species/159-laterallus-jamaicensis-coturniculus.webp",
   "active": true,
@@ -3674,7 +3734,8 @@
   "image_credit": "Wikimedia Commons, lead image of en.wikipedia 'Black rail'",
   "image_origin": "https://upload.wikimedia.org/wikipedia/commons/1/10/Laterallus_jamaicensis_-_Black_Rail%3B_Arari%2C_Maranh%C3%A3o%2C_Brazil.jpg",
   "gbif_key": 6176697,
-  "gbif_confidence": 98
+  "gbif_confidence": 98,
+  "lifespan": "5-9 years"
  },
  {
   "type": "Bird",
@@ -3766,7 +3827,8 @@
   "image_credit": "Wikimedia Commons, lead image of en.wikipedia 'California least tern'",
   "image_origin": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Sternula_antillarum_browni%2C_San_Luis_Obispo%2C_California_1.jpg",
   "gbif_key": 6065775,
-  "gbif_confidence": 98
+  "gbif_confidence": 98,
+  "size": "~9.1 in (23 cm)"
  },
  {
   "type": "Mammal",
@@ -3801,7 +3863,7 @@
   "order": "Artiodactyla",
   "family": "Bovidae",
   "genus": "Ovis",
-  "description": "The Desert Mountain bighorn sheep is one of three subspecies of bighorn sheep. The bighorn sheep is one of only two species of sheep native to North America. It is found  in the intermountain west and southwestern regions, as well as northwestern Mexico.. The species range from 115 to 280 pounds (52 to 127 kg), while ewes are somewhat smaller. Both sexes develop horns soon after birth, with horn growth continuing more or less throughout life. Older rams have curling horns measuring over three feet long with more than one foot of circumference at the base. The ewes' horns are much smaller and lighter and do not tend to curl. After eight years of growth, the horns of an adult ram may weigh more than 30 pounds. They live 6-8 years and are a priority species in California. Bighorn sheep graze on grasses and browse shrubs, particularly in fall and winter, and seek minerals at natural salt licks. Desert bighorn sheep are social, forming herds of eight to 10 individuals; sometimes herds of 100 are observed. Bighorn sheep of all ages are threatened by black bears, grizzly bears, wolves, and especially mountain lions. It is listed as endangered and fully protected in the state of california.",
+  "description": "The Desert Mountain bighorn sheep is one of three subspecies of bighorn sheep. The bighorn sheep is one of only two species of sheep native to North America. It is found in the intermountain west and southwestern regions, as well as northwestern Mexico.. The species range from 115 to 280 pounds (52 to 127 kg), while ewes are somewhat smaller. Both sexes develop horns soon after birth, with horn growth continuing more or less throughout life. Older rams have curling horns measuring over three feet long with more than one foot of circumference at the base. The ewes' horns are much smaller and lighter and do not tend to curl. After eight years of growth, the horns of an adult ram may weigh more than 30 pounds. They live 6-8 years and are a priority species in California. Bighorn sheep graze on grasses and browse shrubs, particularly in fall and winter, and seek minerals at natural salt licks. Desert bighorn sheep are social, forming herds of eight to 10 individuals; sometimes herds of 100 are observed. Bighorn sheep of all ages are threatened by black bears, grizzly bears, wolves, and especially mountain lions. It is listed as endangered and fully protected in the state of california.",
   "conservation status": "Endangered",
   "image": "images/species/165-ovis-canadensis-californiana.webp",
   "active": true,
@@ -3812,7 +3874,8 @@
   "image_credit": "",
   "image_origin": "https://www.desertsun.com/gcdn/-mm-/00091fc00565a241cd46a450054aa381d5a1e6a1/c=300-0-1800-1500/local/-/media/2016/02/22/PalmSprings/PalmSprings/635917516960152786-Bighorn-Sheep-lamb-Feb.-22-2016.jpg",
   "gbif_key": 4262555,
-  "gbif_confidence": 98
+  "gbif_confidence": 98,
+  "lifespan": "6-8 years"
  },
  {
   "type": "Mammal",
@@ -3835,7 +3898,8 @@
   "image_credit": "",
   "image_origin": "https://thewhaletrail.org/wp-content/uploads/2018/07/1280_UApR6adyss92.jpg",
   "gbif_key": 9747921,
-  "gbif_confidence": 97
+  "gbif_confidence": 97,
+  "lifespan": "~70 years"
  },
  {
   "type": "Mammal",
@@ -3904,7 +3968,8 @@
   "image_credit": "Wikimedia Commons, lead image of en.wikipedia 'Wolverine'",
   "image_origin": "https://upload.wikimedia.org/wikipedia/commons/8/86/J%C3%A4rv1.jpg",
   "gbif_key": 5219079,
-  "gbif_confidence": 98
+  "gbif_confidence": 98,
+  "lifespan": "8-10 years"
  },
  {
   "type": "Mammal",
@@ -4384,7 +4449,9 @@
   "image_license": "CC BY 2.0",
   "image_source": "Wikimedia Commons",
   "active": true,
-  "ca_status": "native"
+  "ca_status": "native",
+  "lifespan": "~35 years",
+  "size": "~8 in (20 cm)"
  },
  {
   "type": "Mollusk",
@@ -4474,7 +4541,8 @@
   "image_license": "CC BY-SA 4.0",
   "image_source": "Wikimedia Commons",
   "active": true,
-  "ca_status": "native"
+  "ca_status": "native",
+  "size": "~14 in (36 cm)"
  },
  {
   "type": "Fish",
@@ -4504,7 +4572,9 @@
   "image_license": "CC BY 2.0",
   "image_source": "Wikimedia Commons",
   "active": true,
-  "ca_status": "native"
+  "ca_status": "native",
+  "lifespan": "~30 years",
+  "size": "3.9-4.9 ft (1.2-1.5 m)"
  },
  {
   "type": "Cnidarian",
@@ -5283,5 +5353,81 @@
   "gbif_key": 2334152,
   "gbif_confidence": 99,
   "ca_status": "not listed"
+ },
+ {
+  "type": "Insect",
+  "common name": "Polyphemus Moth",
+  "scientific name": "Antheraea polyphemus",
+  "kingdom": "Animalia",
+  "phylum": "Arthropoda",
+  "class": "Insecta",
+  "order": "Lepidoptera",
+  "family": "Saturniidae",
+  "genus": "Antheraea",
+  "description": "",
+  "conservation status": "",
+  "image": "",
+  "active": false,
+  "hidden_reason": "awaiting an approved photo",
+  "gbif_key": 1866570,
+  "gbif_confidence": 99,
+  "_candidates": [
+   {
+    "below_preferred_size": false,
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/205949886/original.jpg",
+    "source": "iNaturalist",
+    "matched_name": "Antheraea polyphemus",
+    "matched_rank": "species",
+    "species_fallback": false,
+    "taxon_id": 47919,
+    "license": "cc-by",
+    "attribution": "(c) Trevor Van Loon, some rights reserved (CC BY), uploaded by Trevor Van Loon",
+    "width": 2048,
+    "height": 1365,
+    "page": null
+   },
+   {
+    "below_preferred_size": false,
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/506337435/original.jpg",
+    "source": "iNaturalist",
+    "matched_name": "Antheraea polyphemus",
+    "matched_rank": "species",
+    "species_fallback": false,
+    "taxon_id": 47919,
+    "license": "cc-by-nc",
+    "attribution": "(c) Allanah Vokes, some rights reserved (CC BY-NC), uploaded by Allanah Vokes",
+    "width": 2048,
+    "height": 1638,
+    "page": null
+   },
+   {
+    "below_preferred_size": false,
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/466525498/original.jpeg",
+    "source": "iNaturalist",
+    "matched_name": "Antheraea polyphemus",
+    "matched_rank": "species",
+    "species_fallback": false,
+    "taxon_id": 47919,
+    "license": "cc-by",
+    "attribution": "(c) Michelle W. （鍾偉瑋）, some rights reserved (CC BY), uploaded by Michelle W. （鍾偉瑋）",
+    "width": 1638,
+    "height": 2048,
+    "page": null
+   },
+   {
+    "below_preferred_size": false,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Polyphemus_Moth_Antheraea_polyphemus.JPG",
+    "source": "Wikipedia/Commons",
+    "matched_name": "Antheraea polyphemus",
+    "matched_rank": null,
+    "species_fallback": false,
+    "taxon_id": null,
+    "license": "see Commons file page",
+    "attribution": "Wikimedia Commons, lead image of en.wikipedia 'Antheraea polyphemus'",
+    "width": 4000,
+    "height": 3000,
+    "page": "https://en.wikipedia.org/wiki/Antheraea%20polyphemus"
+   }
+  ]
  }
 ]

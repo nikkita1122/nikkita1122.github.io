@@ -514,9 +514,8 @@ body {
 
 .side-rail {
   position: fixed;
-  top: 50%;
+  top: 14px;
   left: 0;
-  transform: translateY(-50%);
   z-index: 20;
 
   display: flex;
@@ -690,6 +689,7 @@ body.page-taxonomy{ background: var(--cream); color: var(--ink); }
 @media (max-width: 700px) {
 
   .side-rail {
+    top: 10px;
     gap: 2px;
     padding: 7px 5px;
     border-radius: 0 13px 13px 0;
@@ -704,3 +704,38 @@ body.page-taxonomy{ background: var(--cream); color: var(--ink); }
 
   .category-buttons { margin-left: 0; }
 }
+
+
+/* lifespan | size | weight, under the scientific name */
+
+.stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 14px;
+  margin: 7px 0 0 !important;
+  font-size: .82rem;
+  color: var(--cream);
+  opacity: .75;
+}
+
+.stats span { white-space: nowrap; }
+
+.stats span + span {
+  position: relative;
+  padding-left: 14px;
+}
+
+.stats span + span::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 1px;
+  height: 11px;
+  transform: translateY(-50%);
+  background: currentColor;
+  opacity: .35;
+}
+
+.project-light-bg .stats,
+body.page-about .stats { color: var(--ink); }
