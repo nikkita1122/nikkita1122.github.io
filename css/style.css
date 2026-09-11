@@ -503,3 +503,49 @@ body {
 .star-btn .star-filled  { display: none; }
 .star-btn.starred .star-outline { display: none; }
 .star-btn.starred .star-filled  { display: block; }
+
+
+/* ---------------------------------------------------------
+   SUPPORT HEART
+   Top-left of the page. Deliberately bare - no ring and no
+   halo, unlike the category filter buttons.
+--------------------------------------------------------- */
+
+.heart-btn {
+  position: absolute;
+  top: 16px;
+  left: 18px;
+  z-index: 5;
+  width: 38px;
+  height: 38px;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fbb1ca;
+  background: none;
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+  cursor: pointer;
+  transition: transform .2s ease, color .2s ease;
+}
+
+.heart-btn svg { width: 30px; height: 30px; display: block; }
+
+.heart-btn:hover {
+  transform: scale(1.12);
+  color: #f79ab9;
+  background: none;
+  box-shadow: none;
+}
+
+.heart-btn:focus-visible {
+  outline: 3px solid #fbb1ca;
+  outline-offset: 3px;
+}
+
+@media (max-width: 560px) {
+  .heart-btn { top: 10px; left: 10px; width: 34px; height: 34px; }
+  .heart-btn svg { width: 26px; height: 26px; }
+}
