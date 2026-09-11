@@ -1815,7 +1815,7 @@
   "image": "images/species/078-arborimus-albipes.webp",
   "active": true,
   "hidden_reason": "",
-  "ca_status": "not listed",
+  "ca_status": "native",
   "image_source": "original (kept)",
   "image_license": "unverified — inherited from the original dataset",
   "image_credit": "",
@@ -1953,7 +1953,7 @@
   "image": "images/species/084-eptesicus-fuscus.webp",
   "active": true,
   "hidden_reason": "",
-  "ca_status": "not listed",
+  "ca_status": "native",
   "image_source": "iNaturalist",
   "image_license": "cc-by-nc",
   "image_credit": "(c) Joe Bartok, some rights reserved (CC BY-NC), uploaded by Joe Bartok",
@@ -1999,7 +1999,7 @@
   "image": "images/species/086-lasionycteris-noctivagans.webp",
   "active": true,
   "hidden_reason": "",
-  "ca_status": "not listed",
+  "ca_status": "native",
   "image_source": "original (kept)",
   "image_license": "unverified — inherited from the original dataset",
   "image_credit": "",
@@ -2136,7 +2136,7 @@
   "image": "images/species/092-vulpes-macrotis.webp",
   "active": true,
   "hidden_reason": "",
-  "ca_status": "not listed",
+  "ca_status": "native",
   "image_source": "iNaturalist",
   "image_license": "cc-by-nc",
   "image_credit": "(c) markc666, some rights reserved (CC BY-NC)",
@@ -2321,7 +2321,7 @@
   "image": "images/species/100-odocoileus-hemionus-californicus.webp",
   "active": true,
   "hidden_reason": "",
-  "ca_status": "not listed",
+  "ca_status": "native",
   "image_source": "iNaturalist",
   "image_license": "cc-by-nc",
   "image_credit": "(c) Mickey Long, some rights reserved (CC BY-NC), uploaded by Mickey Long",
@@ -2367,13 +2367,14 @@
   "image": "images/species/102-axis-axis.webp",
   "active": true,
   "hidden_reason": "",
-  "ca_status": "no taxon match",
+  "ca_status": "introduced",
   "image_source": "original (kept)",
   "image_license": "unverified — inherited from the original dataset",
   "image_credit": "",
   "image_origin": "https://bucktrader.com/wp-content/uploads/2024/04/axis-deer.jpg",
   "gbif_key": 2440934,
-  "gbif_confidence": 99
+  "gbif_confidence": 99,
+  "non_native": true
  },
  {
   "type": "Mammal",
@@ -2390,7 +2391,7 @@
   "image": "images/species/103-aplodontia-rufa-nigra.webp",
   "active": true,
   "hidden_reason": "",
-  "ca_status": "not listed",
+  "ca_status": "endemic",
   "image_source": "original (kept)",
   "image_license": "unverified — inherited from the original dataset",
   "image_credit": "",
@@ -2505,7 +2506,7 @@
   "image": "images/species/108-sceloporus-occidentalis.webp",
   "active": true,
   "hidden_reason": "",
-  "ca_status": "not listed",
+  "ca_status": "native",
   "image_source": "Wikipedia/Commons",
   "image_license": "see Commons file page",
   "image_credit": "Wikimedia Commons, lead image of en.wikipedia 'Western fence lizard'",
@@ -2528,13 +2529,14 @@
   "image": "images/species/109-cheiracanthium-mildei.webp",
   "active": true,
   "hidden_reason": "",
-  "ca_status": "not listed",
+  "ca_status": "introduced",
   "image_source": "original (kept)",
   "image_license": "unverified — inherited from the original dataset",
   "image_credit": "",
   "image_origin": "https://upload.wikimedia.org/wikipedia/commons/2/27/Long-legged_Sac_Spider_-_Cheiracanthium_sp.%2C_Pateros%2C_Washington.jpg",
   "gbif_key": 2164198,
-  "gbif_confidence": 99
+  "gbif_confidence": 99,
+  "non_native": true
  },
  {
   "type": "Plant",
@@ -2551,7 +2553,7 @@
   "image": "images/species/110-arctotheca-prostrata.webp",
   "active": true,
   "hidden_reason": "",
-  "ca_status": "not listed",
+  "ca_status": "introduced",
   "image_source": "iNaturalist",
   "image_license": "cc-by-nc",
   "image_credit": "(c) Josef Stulz, some rights reserved (CC BY-NC), uploaded by Josef Stulz",
@@ -2577,7 +2579,7 @@
   "image_source": "Wikimedia Commons",
   "image_license": "CC BY 2.0",
   "image_credit": "S. Rae from Scotland, UK (CC BY 2.0), via Wikimedia Commons",
-  "ca_status": "not listed",
+  "ca_status": "native",
   "image_origin": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Erigeron_glaucus_%28Seaside_Daisy%29_-_Flickr_-_S._Rae.jpg",
   "gbif_key": 3146888,
   "gbif_confidence": 98
@@ -2597,7 +2599,7 @@
   "image": "images/species/112-layia-platyglossa.webp",
   "active": true,
   "hidden_reason": "",
-  "ca_status": "not listed",
+  "ca_status": "native",
   "image_source": "original (kept)",
   "image_license": "unverified — inherited from the original dataset",
   "image_credit": "",
@@ -2620,7 +2622,7 @@
   "image": "images/species/113-gilia-capitata.webp",
   "active": true,
   "hidden_reason": "",
-  "ca_status": "not listed",
+  "ca_status": "native",
   "image_source": "original (kept)",
   "image_license": "unverified — inherited from the original dataset",
   "image_credit": "",
@@ -2643,7 +2645,7 @@
   "image": "images/species/114-collinsia-heterophylla.webp",
   "active": true,
   "hidden_reason": "",
-  "ca_status": "not listed",
+  "ca_status": "native",
   "image_source": "original (kept)",
   "image_license": "unverified — inherited from the original dataset",
   "image_credit": "",
@@ -2666,7 +2668,7 @@
   "image": "images/species/115-carpobrotus-chilensis.webp",
   "active": true,
   "hidden_reason": "",
-  "ca_status": "not listed",
+  "ca_status": "introduced",
   "image_source": "iNaturalist",
   "image_license": "cc-by-nc",
   "image_credit": "(c) Peter Zika, some rights reserved (CC BY-NC), uploaded by Peter Zika",
@@ -2689,7 +2691,7 @@
   "image": "images/species/116-allium-giganteum.webp",
   "active": true,
   "hidden_reason": "",
-  "ca_status": "not listed",
+  "ca_status": "introduced",
   "image_source": "original (kept)",
   "image_license": "unverified — inherited from the original dataset",
   "image_credit": "",
@@ -2712,7 +2714,7 @@
   "image": "images/species/117-polystichum-munitum.webp",
   "active": true,
   "hidden_reason": "",
-  "ca_status": "not listed",
+  "ca_status": "native",
   "image_source": "iNaturalist",
   "image_license": "cc-by-nc-sa",
   "image_credit": "(c) Anthony Mendoza, some rights reserved (CC BY-NC-SA)",
@@ -2735,7 +2737,7 @@
   "image": "images/species/118-rhododendron-indicum.webp",
   "active": true,
   "hidden_reason": "",
-  "ca_status": "not listed",
+  "ca_status": "introduced",
   "image_source": "iNaturalist",
   "image_license": "cc-by-nc",
   "image_credit": "(c) 空猫, some rights reserved (CC BY-NC), uploaded by 空猫",
@@ -2758,7 +2760,7 @@
   "image": "images/species/119-camellia-japonica.webp",
   "active": true,
   "hidden_reason": "",
-  "ca_status": "not listed",
+  "ca_status": "introduced",
   "image_source": "Wikipedia/Commons",
   "image_license": "see Commons file page",
   "image_credit": "Wikimedia Commons, lead image of en.wikipedia 'Camellia japonica'",
@@ -2781,7 +2783,7 @@
   "image": "https://www.calloways.com/wp-content/uploads/dusty-miller-0773400939.jpg",
   "active": false,
   "hidden_reason": "introduced to California (iNaturalist establishment_means)",
-  "ca_status": "introduced",
+  "ca_status": "not listed",
   "gbif_key": 5388595,
   "gbif_confidence": 99
  },
@@ -2800,7 +2802,7 @@
   "image": "images/species/121-cercis-occidentalis.webp",
   "active": true,
   "hidden_reason": "",
-  "ca_status": "not listed",
+  "ca_status": "native",
   "image_source": "original (kept)",
   "image_license": "unverified — inherited from the original dataset",
   "image_credit": "",
@@ -2823,7 +2825,7 @@
   "image": "images/species/122-lycianthes-rantonnetii.webp",
   "active": true,
   "hidden_reason": "",
-  "ca_status": "not listed",
+  "ca_status": "introduced",
   "image_source": "Wikipedia/Commons",
   "image_license": "see Commons file page",
   "image_credit": "Wikimedia Commons, lead image of en.wikipedia 'Lycianthes rantonnetii'",
@@ -2869,7 +2871,7 @@
   "image": "images/species/124-nemophila-menziesii.webp",
   "active": true,
   "hidden_reason": "",
-  "ca_status": "not listed",
+  "ca_status": "native",
   "image_source": "original (kept)",
   "image_license": "unverified — inherited from the original dataset",
   "image_credit": "",
@@ -2892,7 +2894,7 @@
   "image": "images/species/125-allium-triquetrum.webp",
   "active": true,
   "hidden_reason": "",
-  "ca_status": "not listed",
+  "ca_status": "introduced",
   "image_source": "Wikipedia/Commons",
   "image_license": "see Commons file page",
   "image_credit": "Wikimedia Commons, lead image of en.wikipedia 'Allium triquetrum'",
@@ -2915,7 +2917,7 @@
   "image": "images/species/126-cistus-salviifolius.webp",
   "active": true,
   "hidden_reason": "",
-  "ca_status": "not listed",
+  "ca_status": "introduced",
   "image_source": "Wikipedia/Commons",
   "image_license": "see Commons file page",
   "image_credit": "Wikimedia Commons, lead image of en.wikipedia 'Cistus salviifolius'",
@@ -2938,7 +2940,7 @@
   "image": "images/species/127-ceanothus-thyrsiflorus.webp",
   "active": true,
   "hidden_reason": "",
-  "ca_status": "not listed",
+  "ca_status": "native",
   "image_source": "Wikipedia/Commons",
   "image_license": "see Commons file page",
   "image_credit": "Wikimedia Commons, lead image of en.wikipedia 'Ceanothus thyrsiflorus'",
@@ -2961,7 +2963,7 @@
   "image": "images/species/128-juncus-patens.webp",
   "active": true,
   "hidden_reason": "",
-  "ca_status": "not listed",
+  "ca_status": "native",
   "image_source": "original (kept)",
   "image_license": "unverified — inherited from the original dataset",
   "image_credit": "",
@@ -2984,7 +2986,7 @@
   "image": "images/species/129-sairocarpus-nuttallianus.webp",
   "active": true,
   "hidden_reason": "",
-  "ca_status": "not listed",
+  "ca_status": "native",
   "image_source": "Wikipedia/Commons",
   "image_license": "see Commons file page",
   "image_credit": "Wikimedia Commons, lead image of en.wikipedia 'Antirrhinum'",
@@ -3053,7 +3055,7 @@
   "image": "images/species/132-oenothera-elata.webp",
   "active": true,
   "hidden_reason": "",
-  "ca_status": "not listed",
+  "ca_status": "native",
   "image_source": "iNaturalist",
   "image_license": "cc-by-nc",
   "image_credit": "(c) smfang, some rights reserved (CC BY-NC), uploaded by smfang",
@@ -3099,7 +3101,7 @@
   "image": "images/species/134-dietes-iridioides.webp",
   "active": true,
   "hidden_reason": "",
-  "ca_status": "not listed",
+  "ca_status": "introduced",
   "image_source": "original (kept)",
   "image_license": "unverified — inherited from the original dataset",
   "image_credit": "",
@@ -3145,7 +3147,7 @@
   "image": "images/species/136-malva-arborea.webp",
   "active": true,
   "hidden_reason": "",
-  "ca_status": "not listed",
+  "ca_status": "introduced",
   "image_source": "original (kept)",
   "image_license": "unverified — inherited from the original dataset",
   "image_credit": "",
@@ -3187,7 +3189,7 @@
   "image": "images/species/138-lantana-montevidensis.webp",
   "active": true,
   "hidden_reason": "",
-  "ca_status": "not listed",
+  "ca_status": "introduced",
   "image_source": "Wikipedia/Commons",
   "image_license": "see Commons file page",
   "image_credit": "Wikimedia Commons, lead image of en.wikipedia 'Lantana montevidensis'",
@@ -3210,7 +3212,7 @@
   "image": "images/species/139-acanthus-mollis.webp",
   "active": true,
   "hidden_reason": "",
-  "ca_status": "not listed",
+  "ca_status": "introduced",
   "image_source": "Wikipedia/Commons",
   "image_license": "see Commons file page",
   "image_credit": "Wikimedia Commons, lead image of en.wikipedia 'Acanthus mollis'",
@@ -3256,7 +3258,7 @@
   "image": "images/species/141-amaryllis-belladonna.webp",
   "active": true,
   "hidden_reason": "",
-  "ca_status": "not listed",
+  "ca_status": "introduced",
   "image_source": "Wikipedia/Commons",
   "image_license": "see Commons file page",
   "image_credit": "Wikimedia Commons, lead image of en.wikipedia 'Amaryllis belladonna'",
@@ -3279,7 +3281,7 @@
   "image": "images/species/142-nerium-oleander.webp",
   "active": true,
   "hidden_reason": "",
-  "ca_status": "not listed",
+  "ca_status": "introduced",
   "image_source": "Wikipedia/Commons",
   "image_license": "see Commons file page",
   "image_credit": "Wikimedia Commons, lead image of en.wikipedia 'Nerium'",
@@ -3302,7 +3304,7 @@
   "image": "images/species/143-penstemon-heterophyllus.webp",
   "active": true,
   "hidden_reason": "",
-  "ca_status": "not listed",
+  "ca_status": "native",
   "image_source": "Wikipedia/Commons",
   "image_license": "see Commons file page",
   "image_credit": "Wikimedia Commons, lead image of en.wikipedia 'Penstemon heterophyllus'",
@@ -3371,7 +3373,7 @@
   "image": "images/species/146-lavandula-angustifolia.webp",
   "active": true,
   "hidden_reason": "",
-  "ca_status": "not listed",
+  "ca_status": "introduced",
   "image_source": "iNaturalist",
   "image_license": "cc-by-nc",
   "image_credit": "(c) epicnom, some rights reserved (CC BY-NC)",
@@ -3436,7 +3438,7 @@
   "image": "images/species/149-euphorbia-amygdaloides.webp",
   "active": true,
   "hidden_reason": "",
-  "ca_status": "not listed",
+  "ca_status": "introduced",
   "image_source": "Wikipedia/Commons",
   "image_license": "see Commons file page",
   "image_credit": "Wikimedia Commons, lead image of en.wikipedia 'Euphorbia amygdaloides'",
@@ -3459,7 +3461,7 @@
   "image": "images/species/150-ambystoma-macrodactylum-croceum.webp",
   "active": true,
   "hidden_reason": "",
-  "ca_status": "not listed",
+  "ca_status": "endemic",
   "image_source": "original (kept)",
   "image_license": "unverified — inherited from the original dataset",
   "image_credit": "",
@@ -3482,7 +3484,7 @@
   "image": "images/species/151-hydromantes-brunus.webp",
   "active": true,
   "hidden_reason": "",
-  "ca_status": "not listed",
+  "ca_status": "endemic",
   "image_source": "Wikipedia/Commons",
   "image_license": "see Commons file page",
   "image_credit": "Wikimedia Commons, lead image of en.wikipedia 'Limestone salamander'",
@@ -3505,7 +3507,7 @@
   "image": "images/species/152-anaxyrus-exsul.webp",
   "active": true,
   "hidden_reason": "",
-  "ca_status": "not listed",
+  "ca_status": "endemic",
   "image_source": "Wikipedia/Commons",
   "image_license": "see Commons file page",
   "image_credit": "Wikimedia Commons, lead image of en.wikipedia 'Black toad'",
@@ -3528,7 +3530,7 @@
   "image": "images/species/153-gambelia-sila.webp",
   "active": true,
   "hidden_reason": "",
-  "ca_status": "not listed",
+  "ca_status": "endemic",
   "image_source": "original (kept)",
   "image_license": "unverified — inherited from the original dataset",
   "image_credit": "",
@@ -3551,7 +3553,7 @@
   "image": "images/species/154-thamnophis-sirtalis-tetrataenia.webp",
   "active": true,
   "hidden_reason": "",
-  "ca_status": "not listed",
+  "ca_status": "endemic",
   "image_source": "original (kept)",
   "image_license": "unverified — inherited from the original dataset",
   "image_credit": "",
@@ -3620,7 +3622,7 @@
   "image": "images/species/157-haliaeetus-leucocephalus.webp",
   "active": true,
   "hidden_reason": "",
-  "ca_status": "not listed",
+  "ca_status": "native",
   "image_source": "original (kept)",
   "image_license": "unverified — inherited from the original dataset",
   "image_credit": "",
@@ -3643,7 +3645,7 @@
   "image": "images/species/158-elanus-leucurus.webp",
   "active": true,
   "hidden_reason": "",
-  "ca_status": "not listed",
+  "ca_status": "native",
   "image_source": "Wikipedia/Commons",
   "image_license": "see Commons file page",
   "image_credit": "Wikimedia Commons, lead image of en.wikipedia 'White-tailed kite'",
@@ -3712,7 +3714,7 @@
   "image": "images/species/161-rallus-obsoletus-levipes.webp",
   "active": true,
   "hidden_reason": "",
-  "ca_status": "not listed",
+  "ca_status": "native",
   "image_source": "original (kept)",
   "image_license": "unverified — inherited from the original dataset",
   "image_credit": "",
@@ -3758,7 +3760,7 @@
   "image": "images/species/163-sternula-antillarum-browni.webp",
   "active": true,
   "hidden_reason": "",
-  "ca_status": "not listed",
+  "ca_status": "native",
   "image_source": "Wikipedia/Commons",
   "image_license": "see Commons file page",
   "image_credit": "Wikimedia Commons, lead image of en.wikipedia 'California least tern'",
@@ -3804,7 +3806,7 @@
   "image": "images/species/165-ovis-canadensis-californiana.webp",
   "active": true,
   "hidden_reason": "",
-  "ca_status": "no taxon match",
+  "ca_status": "native",
   "image_source": "original (kept)",
   "image_license": "unverified — inherited from the original dataset",
   "image_credit": "",
@@ -3850,7 +3852,7 @@
   "image": "images/species/167-arctocephalus-townsendi.webp",
   "active": true,
   "hidden_reason": "",
-  "ca_status": "not listed",
+  "ca_status": "native",
   "image_source": "original (kept)",
   "image_license": "unverified — inherited from the original dataset",
   "image_credit": "",
@@ -3873,7 +3875,7 @@
   "image": "images/species/168-reithrodontomys-raviventris.webp",
   "active": true,
   "hidden_reason": "",
-  "ca_status": "not listed",
+  "ca_status": "endemic",
   "image_source": "original (kept)",
   "image_license": "unverified — inherited from the original dataset",
   "image_credit": "",
@@ -3946,7 +3948,8 @@
   "image_source": "iNaturalist",
   "image_license": "cc-by-sa",
   "image_credit": "(c) m.dolores paderne sa…, some rights reserved (CC BY-SA)",
-  "image_origin": "https://inaturalist-open-data.s3.amazonaws.com/photos/515847774/original.jpg"
+  "image_origin": "https://inaturalist-open-data.s3.amazonaws.com/photos/515847774/original.jpg",
+  "ca_status": "introduced"
  },
  {
   "type": "Plant",
@@ -3967,7 +3970,8 @@
   "image_source": "iNaturalist",
   "image_license": "cc-by-nc",
   "image_credit": "(c) Chris Krawczyk, some rights reserved (CC BY-NC), uploaded by Chris Krawczyk",
-  "image_origin": "https://inaturalist-open-data.s3.amazonaws.com/photos/127811887/original.jpg"
+  "image_origin": "https://inaturalist-open-data.s3.amazonaws.com/photos/127811887/original.jpg",
+  "ca_status": "introduced"
  },
  {
   "type": "Plant",
@@ -3988,7 +3992,8 @@
   "image_source": "iNaturalist",
   "image_license": "cc-by",
   "image_credit": "(c) Jon Sullivan, some rights reserved (CC BY)",
-  "image_origin": "https://inaturalist-open-data.s3.amazonaws.com/photos/1197867/original.jpg"
+  "image_origin": "https://inaturalist-open-data.s3.amazonaws.com/photos/1197867/original.jpg",
+  "ca_status": "introduced"
  },
  {
   "type": "Plant",
@@ -4009,7 +4014,8 @@
   "image_source": "iNaturalist",
   "image_license": "cc-by-nc-sa",
   "image_credit": "(c) Reiner Richter, some rights reserved (CC BY-NC-SA), uploaded by Reiner Richter",
-  "image_origin": "https://inaturalist-open-data.s3.amazonaws.com/photos/38652836/original.jpeg"
+  "image_origin": "https://inaturalist-open-data.s3.amazonaws.com/photos/38652836/original.jpeg",
+  "ca_status": "introduced"
  },
  {
   "type": "Bird",
@@ -4030,7 +4036,8 @@
   "image_source": "Wikipedia/Commons",
   "image_license": "see Commons file page",
   "image_credit": "Wikimedia Commons, lead image of en.wikipedia 'Red-tailed hawk'",
-  "image_origin": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Red-tailed_Hawk_%2845812546121%29.jpg"
+  "image_origin": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Red-tailed_Hawk_%2845812546121%29.jpg",
+  "ca_status": "native"
  },
  {
   "type": "Bird",
@@ -4051,7 +4058,8 @@
   "image_source": "Wikipedia/Commons",
   "image_license": "see Commons file page",
   "image_credit": "Wikimedia Commons, lead image of en.wikipedia 'Red-shouldered hawk'",
-  "image_origin": "https://upload.wikimedia.org/wikipedia/commons/6/62/Red-shouldered_Hawk_%28Buteo_lineatus%29_-_Blue_Cypress_Lake%2C_Florida.jpg"
+  "image_origin": "https://upload.wikimedia.org/wikipedia/commons/6/62/Red-shouldered_Hawk_%28Buteo_lineatus%29_-_Blue_Cypress_Lake%2C_Florida.jpg",
+  "ca_status": "native"
  },
  {
   "type": "Insect",
@@ -4072,7 +4080,8 @@
   "image_source": "iNaturalist",
   "image_license": "cc-by-nc",
   "image_credit": "(c) BJ Stacey, some rights reserved (CC BY-NC)",
-  "image_origin": "https://inaturalist-open-data.s3.amazonaws.com/photos/341873/original.jpg"
+  "image_origin": "https://inaturalist-open-data.s3.amazonaws.com/photos/341873/original.jpg",
+  "ca_status": "endemic"
  },
  {
   "type": "Insect",
@@ -4093,7 +4102,8 @@
   "image_source": "iNaturalist",
   "image_license": "cc-by-nc",
   "image_credit": "(c) bob15noble, some rights reserved (CC BY-NC), uploaded by bob15noble",
-  "image_origin": "https://inaturalist-open-data.s3.amazonaws.com/photos/24196220/original.jpg"
+  "image_origin": "https://inaturalist-open-data.s3.amazonaws.com/photos/24196220/original.jpg",
+  "ca_status": "not listed"
  },
  {
   "type": "Insect",
@@ -4114,7 +4124,8 @@
   "image_source": "iNaturalist",
   "image_license": "cc-by-nc",
   "image_credit": "(c) Yinan Li, some rights reserved (CC BY-NC), uploaded by Yinan Li",
-  "image_origin": "https://inaturalist-open-data.s3.amazonaws.com/photos/351681584/original.jpeg"
+  "image_origin": "https://inaturalist-open-data.s3.amazonaws.com/photos/351681584/original.jpeg",
+  "ca_status": "native"
  },
  {
   "type": "Insect",
@@ -4135,7 +4146,8 @@
   "image_source": "iNaturalist",
   "image_license": "cc-by-nc",
   "image_credit": "(c) Greg Lasley, some rights reserved (CC BY-NC), uploaded by Greg Lasley",
-  "image_origin": "https://inaturalist-open-data.s3.amazonaws.com/photos/89184835/original.jpg"
+  "image_origin": "https://inaturalist-open-data.s3.amazonaws.com/photos/89184835/original.jpg",
+  "ca_status": "not listed"
  },
  {
   "type": "Insect",
@@ -4156,7 +4168,8 @@
   "image_source": "iNaturalist",
   "image_license": "cc-by-nc",
   "image_credit": "(c) Diana-Terry Hibbitts, some rights reserved (CC BY-NC), uploaded by Diana-Terry Hibbitts",
-  "image_origin": "https://inaturalist-open-data.s3.amazonaws.com/photos/1610104/original.jpg"
+  "image_origin": "https://inaturalist-open-data.s3.amazonaws.com/photos/1610104/original.jpg",
+  "ca_status": "native"
  },
  {
   "type": "Insect",
@@ -4177,7 +4190,8 @@
   "image_source": "iNaturalist",
   "image_license": "cc-by",
   "image_credit": "(c) Michelle W. （鍾偉瑋）, some rights reserved (CC BY), uploaded by Michelle W. （鍾偉瑋）",
-  "image_origin": "https://inaturalist-open-data.s3.amazonaws.com/photos/62012378/original.jpeg"
+  "image_origin": "https://inaturalist-open-data.s3.amazonaws.com/photos/62012378/original.jpeg",
+  "ca_status": "native"
  },
  {
   "type": "Insect",
@@ -4198,7 +4212,8 @@
   "image_source": "iNaturalist",
   "image_license": "cc-by-nc",
   "image_credit": "(c) kjcarter, some rights reserved (CC BY-NC)",
-  "image_origin": "https://inaturalist-open-data.s3.amazonaws.com/photos/129420536/original.jpeg"
+  "image_origin": "https://inaturalist-open-data.s3.amazonaws.com/photos/129420536/original.jpeg",
+  "ca_status": "native"
  },
  {
   "type": "Insect",
@@ -4219,7 +4234,8 @@
   "image_source": "iNaturalist",
   "image_license": "cc-by-nc",
   "image_credit": "(c) Donna Pomeroy, some rights reserved (CC BY-NC), uploaded by Donna Pomeroy",
-  "image_origin": "https://inaturalist-open-data.s3.amazonaws.com/photos/64677558/original.jpg"
+  "image_origin": "https://inaturalist-open-data.s3.amazonaws.com/photos/64677558/original.jpg",
+  "ca_status": "not listed"
  },
  {
   "type": "Insect",
@@ -4240,7 +4256,9 @@
   "image_source": "iNaturalist",
   "image_license": "cc-by-nc",
   "image_credit": "(c) Ryszard, some rights reserved (CC BY-NC)",
-  "image_origin": "https://inaturalist-open-data.s3.amazonaws.com/photos/360944059/original.jpg"
+  "image_origin": "https://inaturalist-open-data.s3.amazonaws.com/photos/360944059/original.jpg",
+  "ca_status": "introduced",
+  "non_native": true
  },
  {
   "type": "Insect",
@@ -4261,7 +4279,8 @@
   "image_source": "iNaturalist",
   "image_license": "cc-by-nc",
   "image_credit": "(c) Chris L, some rights reserved (CC BY-NC), uploaded by Chris L",
-  "image_origin": "https://inaturalist-open-data.s3.amazonaws.com/photos/193484508/original.jpg"
+  "image_origin": "https://inaturalist-open-data.s3.amazonaws.com/photos/193484508/original.jpg",
+  "ca_status": "native"
  },
  {
   "type": "Insect",
@@ -4282,7 +4301,8 @@
   "image_source": "Wikipedia/Commons",
   "image_license": "see Commons file page",
   "image_credit": "Wikimedia Commons, lead image of en.wikipedia 'Vanessa atalanta'",
-  "image_origin": "https://upload.wikimedia.org/wikipedia/commons/2/24/VanessaAtalanta_Closeup.jpg"
+  "image_origin": "https://upload.wikimedia.org/wikipedia/commons/2/24/VanessaAtalanta_Closeup.jpg",
+  "ca_status": "native"
  },
  {
   "type": "Insect",
@@ -4303,7 +4323,8 @@
   "image_source": "iNaturalist",
   "image_license": "cc-by",
   "image_credit": "(c) Nick Block, some rights reserved (CC BY), uploaded by Nick Block",
-  "image_origin": "https://inaturalist-open-data.s3.amazonaws.com/photos/3114385/original.JPG"
+  "image_origin": "https://inaturalist-open-data.s3.amazonaws.com/photos/3114385/original.JPG",
+  "ca_status": "native"
  },
  {
   "type": "Fish",
@@ -4332,7 +4353,8 @@
   "image_credit": "(c) Alexis, some rights reserved (CC BY-NC), uploaded by Alexis",
   "image_license": "cc-by-nc",
   "image_source": "iNaturalist",
-  "active": true
+  "active": true,
+  "ca_status": "native"
  },
  {
   "type": "Echinoderm",
@@ -4361,7 +4383,8 @@
   "image_credit": "Jerry Kirkhart from Los Osos, Calif. (CC BY 2.0), via Wikimedia Commons",
   "image_license": "CC BY 2.0",
   "image_source": "Wikimedia Commons",
-  "active": true
+  "active": true,
+  "ca_status": "native"
  },
  {
   "type": "Mollusk",
@@ -4390,7 +4413,8 @@
   "image_credit": "Wikimedia Commons (Public domain)",
   "image_license": "Public domain",
   "image_source": "Wikimedia Commons",
-  "active": true
+  "active": true,
+  "ca_status": "native"
  },
  {
   "type": "Fish",
@@ -4419,7 +4443,8 @@
   "image_credit": "Marion Kraschl (CC BY 3.0), via Wikimedia Commons",
   "image_license": "CC BY 3.0",
   "image_source": "Wikimedia Commons",
-  "active": true
+  "active": true,
+  "ca_status": "native"
  },
  {
   "type": "Fish",
@@ -4448,7 +4473,8 @@
   "image_credit": "Dwij Joshipura (CC BY-SA 4.0), via Wikimedia Commons",
   "image_license": "CC BY-SA 4.0",
   "image_source": "Wikimedia Commons",
-  "active": true
+  "active": true,
+  "ca_status": "native"
  },
  {
   "type": "Fish",
@@ -4477,7 +4503,8 @@
   "image_credit": "Brian Gratwicke (CC BY 2.0), via Wikimedia Commons",
   "image_license": "CC BY 2.0",
   "image_source": "Wikimedia Commons",
-  "active": true
+  "active": true,
+  "ca_status": "native"
  },
  {
   "type": "Cnidarian",
@@ -4506,7 +4533,8 @@
   "image_credit": "Stan Shebs (CC BY-SA 3.0), via Wikimedia Commons",
   "image_license": "CC BY-SA 3.0",
   "image_source": "Wikimedia Commons",
-  "active": true
+  "active": true,
+  "ca_status": "native"
  },
  {
   "type": "Plant",
@@ -4542,7 +4570,8 @@
   "image_credit": "The original uploader was J.smith at English Wikipedia.\n\n(Original text: en:user:J.smith) (CC BY-SA 3.0), via Wikimedia Commons",
   "image_license": "CC BY-SA 3.0",
   "image_source": "Wikimedia Commons",
-  "active": true
+  "active": true,
+  "ca_status": "native"
  },
  {
   "type": "Mollusk",
@@ -4578,7 +4607,8 @@
   "image_credit": "Genny Anderson (CC BY-SA 4.0), via Wikimedia Commons",
   "image_license": "CC BY-SA 4.0",
   "image_source": "Wikimedia Commons",
-  "active": true
+  "active": true,
+  "ca_status": "native"
  },
  {
   "type": "Fungi",
@@ -4607,7 +4637,8 @@
   "image_credit": "This image was created by user Alan Rockefeller (Alan Rockefeller) at Mushroom Observer, a source for mycological images.You can contact this user here. (CC BY-SA 3.0), via Wikimedia Commons",
   "image_license": "CC BY-SA 3.0",
   "image_source": "Wikimedia Commons",
-  "active": true
+  "active": true,
+  "ca_status": "not listed"
  },
  {
   "type": "Fungi",
@@ -4650,7 +4681,8 @@
   "image_credit": "T.Voekler (CC BY-SA 3.0), via Wikimedia Commons",
   "image_license": "CC BY-SA 3.0",
   "image_source": "Wikimedia Commons",
-  "active": true
+  "active": true,
+  "ca_status": "not listed"
  },
  {
   "type": "Fungi",
@@ -4693,7 +4725,8 @@
   "image_credit": "Daniel Neal from Sacramento, CA, US (CC BY 2.0), via Wikimedia Commons",
   "image_license": "CC BY 2.0",
   "image_source": "Wikimedia Commons",
-  "active": true
+  "active": true,
+  "ca_status": "native"
  },
  {
   "type": "Fungi",
@@ -4736,7 +4769,8 @@
   "image_credit": "This image was created by user Brian Adamo (adamo588) at Mushroom Observer, a source for mycological images.You can contact this user here. (CC BY-SA 3.0), via Wikimedia Commons",
   "image_license": "CC BY-SA 3.0",
   "image_source": "Wikimedia Commons",
-  "active": true
+  "active": true,
+  "ca_status": "not listed"
  },
  {
   "type": "Fungi",
@@ -4772,7 +4806,8 @@
   "image_credit": "Daniel Neal from Sacramento, CA, US (CC BY 2.0), via Wikimedia Commons",
   "image_license": "CC BY 2.0",
   "image_source": "Wikimedia Commons",
-  "active": true
+  "active": true,
+  "ca_status": "native"
  },
  {
   "type": "Fungi",
@@ -4808,7 +4843,8 @@
   "image_credit": "Viséan (CC BY-SA 4.0), via Wikimedia Commons",
   "image_license": "CC BY-SA 4.0",
   "image_source": "Wikimedia Commons",
-  "active": true
+  "active": true,
+  "ca_status": "native"
  },
  {
   "type": "Fungi",
@@ -4837,7 +4873,8 @@
   "image_credit": "Roan Fourie from Randfontein, South Africa (CC BY-SA 2.0), via Wikimedia Commons",
   "image_license": "CC BY-SA 2.0",
   "image_source": "Wikimedia Commons",
-  "active": true
+  "active": true,
+  "ca_status": "no taxon match"
  },
  {
   "type": "Fungi",
@@ -4873,7 +4910,8 @@
   "image_credit": "This image was created by user Alan Rockefeller (Alan Rockefeller) at Mushroom Observer, a source for mycological images.You can contact this user here. (CC BY-SA 3.0), via Wikimedia Commons",
   "image_license": "CC BY-SA 3.0",
   "image_source": "Wikimedia Commons",
-  "active": true
+  "active": true,
+  "ca_status": "not listed"
  },
  {
   "type": "Fungi",
@@ -4949,7 +4987,8 @@
   ],
   "image": "",
   "active": false,
-  "hidden_reason": "awaiting an approved photo"
+  "hidden_reason": "awaiting an approved photo",
+  "ca_status": "not listed"
  },
  {
   "type": "Fungi",
@@ -5025,7 +5064,8 @@
   ],
   "image": "",
   "active": false,
-  "hidden_reason": "awaiting an approved photo"
+  "hidden_reason": "awaiting an approved photo",
+  "ca_status": "not listed"
  },
  {
   "type": "Fungi",
@@ -5101,7 +5141,8 @@
   ],
   "image": "",
   "active": false,
-  "hidden_reason": "awaiting an approved photo"
+  "hidden_reason": "awaiting an approved photo",
+  "ca_status": "native"
  },
  {
   "type": "Bird",
@@ -5177,7 +5218,8 @@
     "height": 1383,
     "page": "https://en.wikipedia.org/wiki/American%20kestrel"
    }
-  ]
+  ],
+  "ca_status": "no taxon match"
  },
  {
   "type": "Bird",
@@ -5253,7 +5295,8 @@
     "height": 1114,
     "page": "https://en.wikipedia.org/wiki/California%20condor"
    }
-  ]
+  ],
+  "ca_status": "native"
  },
  {
   "type": "Bird",
@@ -5329,7 +5372,8 @@
     "height": 1710,
     "page": "https://en.wikipedia.org/wiki/Swainson%27s%20hawk"
    }
-  ]
+  ],
+  "ca_status": "native"
  },
  {
   "type": "Bird",
@@ -5405,7 +5449,8 @@
     "height": 419,
     "page": "https://en.wikipedia.org/wiki/Prairie%20falcon"
    }
-  ]
+  ],
+  "ca_status": "native"
  },
  {
   "type": "Fish",
@@ -5467,7 +5512,8 @@
     "height": 912,
     "page": "http://commons.wikimedia.org/wiki/File:Colorado_Pikeminnow_(6001740333).jpg"
    }
-  ]
+  ],
+  "ca_status": "not listed"
  },
  {
   "type": "Fish",
@@ -5515,7 +5561,8 @@
     "height": 132,
     "page": "https://en.wikipedia.org/wiki/Thicktail%20chub"
    }
-  ]
+  ],
+  "ca_status": "endemic"
  },
  {
   "type": "Fish",
@@ -5563,7 +5610,8 @@
     "height": 1239,
     "page": null
    }
-  ]
+  ],
+  "ca_status": "endemic"
  },
  {
   "type": "Fish",
@@ -5639,7 +5687,8 @@
     "height": 263,
     "page": "https://en.wikipedia.org/wiki/Lost%20River%20sucker"
    }
-  ]
+  ],
+  "ca_status": "native"
  },
  {
   "type": "Fish",
@@ -5673,7 +5722,8 @@
     "height": 344,
     "page": "https://en.wikipedia.org/wiki/Modoc%20sucker"
    }
-  ]
+  ],
+  "ca_status": "not listed"
  },
  {
   "type": "Fish",
@@ -5707,7 +5757,8 @@
     "height": 300,
     "page": "https://en.wikipedia.org/wiki/Shortnose%20sucker"
    }
-  ]
+  ],
+  "ca_status": "not listed"
  },
  {
   "type": "Fish",
@@ -5783,7 +5834,8 @@
     "height": 1967,
     "page": "https://en.wikipedia.org/wiki/Razorback%20sucker"
    }
-  ]
+  ],
+  "ca_status": "not listed"
  },
  {
   "type": "Fish",
@@ -5859,7 +5911,8 @@
     "height": 2048,
     "page": "https://en.wikipedia.org/wiki/Owens%20pupfish"
    }
-  ]
+  ],
+  "ca_status": "native"
  },
  {
   "type": "Fish",
@@ -5921,7 +5974,8 @@
     "height": 596,
     "page": null
    }
-  ]
+  ],
+  "ca_status": "native"
  },
  {
   "type": "Fish",
@@ -5955,6 +6009,7 @@
     "height": 292,
     "page": "https://en.wikipedia.org/wiki/Rough%20sculpin"
    }
-  ]
+  ],
+  "ca_status": "not listed"
  }
 ]
