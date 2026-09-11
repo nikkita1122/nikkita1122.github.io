@@ -10,13 +10,18 @@ let selectedCategories = new Set();
 let current = null;
 
 // Category mapping from emojis to types
+// Each emoji button maps to one or more `type` values. Types stay
+// taxonomically accurate in the data; the buttons group them for the
+// player. That is why Arachnid sits under the insect button and the
+// fish button also covers molluscs, echinoderms and cnidarians.
 const categoryMap = {
-  plantfungus: ['Plant', 'Fungi'],
-  mammal: ['Mammal'],
-  bird: ['Bird'],
-  reptileamphibian: ['Reptile', 'Amphibian'],
-  insectarachnid: ['Insect', 'Arachnid'],
-  aquatic: ['Fish'],
+  plant:             ['Plant'],
+  fungus:            ['Fungi'],
+  mammal:            ['Mammal'],
+  bird:              ['Bird'],
+  reptileamphibian:  ['Reptile', 'Amphibian'],
+  insectarachnid:    ['Insect', 'Arachnid'],
+  aquatic:           ['Fish', 'Mollusk', 'Echinoderm', 'Cnidarian'],
 };
 
 // 🐣 Load JSON
@@ -25,11 +30,36 @@ fetch('js/flashcards-data.json')
   .then(data => {
     // an image is required, and records flagged active:false stay in the
     // dataset but out of the deck
-    flashcards = data.filter(item => item['image']?.trim() && item.active !== false);
+    flashcards = data.filter(item => photosFor(item).length && item.active !== false);
     filteredFlashcards = [...flashcards]; // Start with all flashcards
     showRandomCard();
   })
   .catch(err => console.error('Could not load flashcards-data.json:', err));
+
+// 📷 A species may have one image or several.
+//    `images` is the array form; `image` is the single-photo form kept
+//    from earlier versions. Either works.
+function photosFor(card) {
+  if (Array.isArray(card.images) && card.images.length) return card.images;
+  if ((card.image || '').trim()) {
+    return [{
+      url: card.image,
+      credit: card.image_credit || '',
+      license: card.image_license || '',
+      source: card.image_source || '',
+    }];
+  }
+  return [];
+}
+
+function pickPhoto(card) {
+  const photos = photosFor(card);
+  if (!photos.length) return { url: '', credit: '' };
+  return photos[Math.floor(Math.random() * photos.length)];
+}
+
+let currentPhoto = { url: '', credit: '' };
+
 
 // 🌼 Show a random flashcard
 function showRandomCard() {
@@ -43,9 +73,14 @@ function showRandomCard() {
 
   current = filteredFlashcards[Math.floor(Math.random() * filteredFlashcards.length)];
 
+  // A species may carry several photographs. Showing a random one each
+  // time stops people memorising a single picture instead of learning
+  // to recognise the species.
+  currentPhoto = pickPhoto(current);
+
   termEl.innerHTML =
     `<div class="flashcard-img-wrapper">
-      <img src="${current['image']}"
+      <img src="${currentPhoto.url}"
            alt="${current['common name']}"
            class="flashcard-img">
       <button class="star-btn" aria-label="Save this species" title="Save this species">
@@ -81,8 +116,8 @@ const nonNative = current['non_native']
   : '';
 
 // CC licences require credit, so it travels with the photo
-const credit = current['image_credit']
-  ? `<p class="credit">Photo: ${current['image_credit']}</p>`
+const credit = currentPhoto.credit
+  ? `<p class="credit">Photo: ${currentPhoto.credit}</p>`
   : '';
 
 definitionEl.innerHTML = `
