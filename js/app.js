@@ -236,7 +236,7 @@ document.addEventListener('keydown', event => {
 
 
 // ❓ Help modal
-const helpBtn    = document.querySelector('.help');
+const helpBtn    = document.querySelector('.help-btn');
 const helpModal  = document.getElementById('helpModal');
 const helpClose  = document.getElementById('helpClose');
 let lastFocused  = null;
