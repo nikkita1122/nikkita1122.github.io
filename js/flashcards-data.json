@@ -2610,7 +2610,8 @@
   "image_credit": "(c) Josef Stulz, some rights reserved (CC BY-NC), uploaded by Josef Stulz",
   "image_origin": "https://inaturalist-open-data.s3.amazonaws.com/photos/43294647/original.jpg",
   "gbif_key": 3114978,
-  "gbif_confidence": 99
+  "gbif_confidence": 99,
+  "non_native": true
  },
  {
   "type": "Plant",
@@ -2725,7 +2726,8 @@
   "image_credit": "(c) Peter Zika, some rights reserved (CC BY-NC), uploaded by Peter Zika",
   "image_origin": "https://inaturalist-open-data.s3.amazonaws.com/photos/182699951/original.jpeg",
   "gbif_key": 3084844,
-  "gbif_confidence": 99
+  "gbif_confidence": 99,
+  "non_native": true
  },
  {
   "type": "Plant",
@@ -2748,7 +2750,8 @@
   "image_credit": "",
   "image_origin": "https://www.gardenia.net/wp-content/uploads/2023/05/allium-giganteum-ornamental-onion.webp",
   "gbif_key": 2857111,
-  "gbif_confidence": 99
+  "gbif_confidence": 99,
+  "non_native": true
  },
  {
   "type": "Plant",
@@ -2794,7 +2797,8 @@
   "image_credit": "(c) 空猫, some rights reserved (CC BY-NC), uploaded by 空猫",
   "image_origin": "https://inaturalist-open-data.s3.amazonaws.com/photos/513781029/original.jpg",
   "gbif_key": 4173541,
-  "gbif_confidence": 99
+  "gbif_confidence": 99,
+  "non_native": true
  },
  {
   "type": "Plant",
@@ -2817,7 +2821,8 @@
   "image_credit": "Wikimedia Commons, lead image of en.wikipedia 'Camellia japonica'",
   "image_origin": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Camellia_japonica_NBG.jpg",
   "gbif_key": 3189636,
-  "gbif_confidence": 97
+  "gbif_confidence": 97,
+  "non_native": true
  },
  {
   "type": "Plant",
@@ -2832,11 +2837,11 @@
   "description": "Jacobaea maritima, commonly known as silver ragwort, is a perennial plant species in the genus Jacobaea in the family Asteraceae, native to the Mediterranean region. It is widely cultivated as an ornamental plant for its white, felt-like tomentose leaves; in horticultural use, it is also sometimes called dusty miller, a name shared with several other plants that also have silvery tomentose leaves, including Centaurea cineraria and Silene coronaria. Silver Ragwort is a very white-wooly, heat and drought tolerant evergreen subshrub growing to 0.5–1 m (1.6–3.3 ft) tall. The stems are stiff and woody at the base, densely branched, and covered in long, matted grey-white to white hairs.",
   "conservation status": "",
   "image": "https://www.calloways.com/wp-content/uploads/dusty-miller-0773400939.jpg",
-  "active": false,
-  "hidden_reason": "introduced to California (iNaturalist establishment_means)",
+  "active": true,
   "ca_status": "not listed",
   "gbif_key": 5388595,
-  "gbif_confidence": 99
+  "gbif_confidence": 99,
+  "non_native": true
  },
  {
   "type": "Plant",
@@ -2883,7 +2888,8 @@
   "image_origin": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Lycianthes_rantonnetii00.jpg",
   "gbif_key": 3799026,
   "gbif_confidence": 99,
-  "size": "~6 ft (1.8 m)"
+  "size": "~6 ft (1.8 m)",
+  "non_native": true
  },
  {
   "type": "Plant",
@@ -2952,7 +2958,8 @@
   "image_credit": "Wikimedia Commons, lead image of en.wikipedia 'Allium triquetrum'",
   "image_origin": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Allium_triquetrum01.jpg",
   "gbif_key": 2856457,
-  "gbif_confidence": 97
+  "gbif_confidence": 97,
+  "non_native": true
  },
  {
   "type": "Plant",
@@ -2975,7 +2982,8 @@
   "image_credit": "Wikimedia Commons, lead image of en.wikipedia 'Cistus salviifolius'",
   "image_origin": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Cistus_April_2008-1.jpg",
   "gbif_key": 2874027,
-  "gbif_confidence": 97
+  "gbif_confidence": 97,
+  "non_native": true
  },
  {
   "type": "Plant",
@@ -3163,7 +3171,8 @@
   "image_origin": "https://www.gardenia.net/wp-content/uploads/2023/05/Dietes-iridioides.webp",
   "gbif_key": 2742428,
   "gbif_confidence": 97,
-  "size": "12-24 in (30-61 cm)"
+  "size": "12-24 in (30-61 cm)",
+  "non_native": true
  },
  {
   "type": "Plant",
@@ -3209,7 +3218,8 @@
   "image_credit": "",
   "image_origin": "https://waterwisegardenplanner.org/wp-content/uploads/2017/01/27104520/Lavatera-maritima-4.jpg",
   "gbif_key": 3935079,
-  "gbif_confidence": 97
+  "gbif_confidence": 97,
+  "non_native": true
  },
  {
   "type": "Plant",
@@ -3251,7 +3261,8 @@
   "image_credit": "Wikimedia Commons, lead image of en.wikipedia 'Lantana montevidensis'",
   "image_origin": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Starr_070221-4728_Lantana_montevidensis.jpg",
   "gbif_key": 2925314,
-  "gbif_confidence": 99
+  "gbif_confidence": 99,
+  "non_native": true
  },
  {
   "type": "Plant",
@@ -3274,7 +3285,8 @@
   "image_credit": "Wikimedia Commons, lead image of en.wikipedia 'Acanthus mollis'",
   "image_origin": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Acanthaceae_-_Acanthus_mollis_%282%29.JPG",
   "gbif_key": 5415455,
-  "gbif_confidence": 97
+  "gbif_confidence": 97,
+  "non_native": true
  },
  {
   "type": "Plant",
@@ -3320,7 +3332,8 @@
   "image_credit": "Wikimedia Commons, lead image of en.wikipedia 'Amaryllis belladonna'",
   "image_origin": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Naked_Ladies%2C_Hinsdale_Rhododendron_Garden_%2815022561349%29.jpg",
   "gbif_key": 5325855,
-  "gbif_confidence": 97
+  "gbif_confidence": 97,
+  "non_native": true
  },
  {
   "type": "Plant",
@@ -3344,7 +3357,8 @@
   "image_origin": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Nerium_oleander_flowers_leaves.jpg",
   "gbif_key": 3169756,
   "gbif_confidence": 99,
-  "size": "7-20 ft (2.1-6.1 m)"
+  "size": "7-20 ft (2.1-6.1 m)",
+  "non_native": true
  },
  {
   "type": "Plant",
@@ -3436,7 +3450,8 @@
   "image_credit": "(c) epicnom, some rights reserved (CC BY-NC)",
   "image_origin": "https://inaturalist-open-data.s3.amazonaws.com/photos/157057/original.jpg",
   "gbif_key": 2927305,
-  "gbif_confidence": 97
+  "gbif_confidence": 97,
+  "non_native": true
  },
  {
   "type": "Plant",
@@ -3474,11 +3489,11 @@
   "description": "It is not native to California, but has been brought here from Mexico and naturalized. It's is a species of daisy-like flowering plant in the family Asteraceae. It is a vigorous, spreading perennial plant growing from woody rhizomes to a maximum height of 15 cm (5.9 in). Its leaves are located along the stem, the basal leaves dying off as the plant bolts. They are sometimes slightly toothed or lobed near the tips. The inflorescences hold one or more flower heads which are each about 1 cm (0.4 inches) wide. They have golden yellow disc florets in the center surrounded by a fringe of up to 80 white to pinkish ray florets",
   "conservation status": "",
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Asteraceae_-_Erigeron_karvinskianus.JPG/500px-Asteraceae_-_Erigeron_karvinskianus.JPG",
-  "active": false,
-  "hidden_reason": "introduced to California (iNaturalist establishment_means)",
+  "active": true,
   "ca_status": "introduced",
   "gbif_key": 3147168,
-  "gbif_confidence": 97
+  "gbif_confidence": 97,
+  "non_native": true
  },
  {
   "type": "Plant",
@@ -3501,7 +3516,8 @@
   "image_credit": "Wikimedia Commons, lead image of en.wikipedia 'Euphorbia amygdaloides'",
   "image_origin": "https://upload.wikimedia.org/wikipedia/commons/4/40/Amandelwolfsmelk_Euphorbia_amygdaloides_closeup.jpg",
   "gbif_key": 3065239,
-  "gbif_confidence": 97
+  "gbif_confidence": 97,
+  "non_native": true
  },
  {
   "type": "Amphibian",
@@ -4014,7 +4030,8 @@
   "image_license": "cc-by-sa",
   "image_credit": "(c) m.dolores paderne sa…, some rights reserved (CC BY-SA)",
   "image_origin": "https://inaturalist-open-data.s3.amazonaws.com/photos/515847774/original.jpg",
-  "ca_status": "introduced"
+  "ca_status": "introduced",
+  "non_native": true
  },
  {
   "type": "Plant",
@@ -4036,7 +4053,8 @@
   "image_license": "cc-by-nc",
   "image_credit": "(c) Chris Krawczyk, some rights reserved (CC BY-NC), uploaded by Chris Krawczyk",
   "image_origin": "https://inaturalist-open-data.s3.amazonaws.com/photos/127811887/original.jpg",
-  "ca_status": "introduced"
+  "ca_status": "introduced",
+  "non_native": true
  },
  {
   "type": "Plant",
@@ -4058,7 +4076,8 @@
   "image_license": "cc-by",
   "image_credit": "(c) Jon Sullivan, some rights reserved (CC BY)",
   "image_origin": "https://inaturalist-open-data.s3.amazonaws.com/photos/1197867/original.jpg",
-  "ca_status": "introduced"
+  "ca_status": "introduced",
+  "non_native": true
  },
  {
   "type": "Plant",
@@ -4080,7 +4099,8 @@
   "image_license": "cc-by-nc-sa",
   "image_credit": "(c) Reiner Richter, some rights reserved (CC BY-NC-SA), uploaded by Reiner Richter",
   "image_origin": "https://inaturalist-open-data.s3.amazonaws.com/photos/38652836/original.jpeg",
-  "ca_status": "introduced"
+  "ca_status": "introduced",
+  "non_native": true
  },
  {
   "type": "Bird",
