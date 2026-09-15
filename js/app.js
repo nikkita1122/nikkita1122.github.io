@@ -363,9 +363,20 @@ starIndexBtn.setAttribute('data-category', 'starred');
 starIndexBtn.setAttribute('aria-label', 'Show only starred species');
 starIndexBtn.title = 'Your study pile';
 starIndexBtn.innerHTML =
-  `<svg viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="${STAR_PATH}"/></svg>
-   <span class="star-count"></span>`;
-categoryRow.appendChild(starIndexBtn);
+  `<svg viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="${STAR_PATH}"/></svg>`;
+
+// The count sits BELOW the button, so it cannot live inside it - the
+// button clips its own overflow while the width animates. A slot holds
+// both and does the collapsing.
+const starSlot = document.createElement('div');
+starSlot.className = 'star-slot';
+starSlot.appendChild(starIndexBtn);
+
+const starCountEl = document.createElement('span');
+starCountEl.className = 'star-count';
+starSlot.appendChild(starCountEl);
+
+categoryRow.appendChild(starSlot);
 
 
 const STAR_FADE_MS  = 750;   // must match the css transition
@@ -374,13 +385,13 @@ const COUNT_FADE_MS = 400;
 function showStarButton(show) {
   // one class, no display juggling and no rAF - the transition runs
   // even if the tab is in the background
-  starIndexBtn.classList.toggle('visible', show);
+  starSlot.classList.toggle('visible', show);
 }
 
 let countTimer = null;
 
 function setStarCount(n) {
-  const el = starIndexBtn.querySelector('.star-count');
+  const el = starCountEl;
   const next = n > 0 ? String(n) : '';
   if (el.textContent === next) return;
 
@@ -450,6 +461,6 @@ categoryButtons.forEach(button => {
 // On load an existing pile should simply be there. Fading it in on
 // every visit would read as a glitch rather than a response.
 if (starred.size) {
-  starIndexBtn.classList.add('visible');
-  starIndexBtn.querySelector('.star-count').textContent = starred.size;
+  starSlot.classList.add('visible');
+  starCountEl.textContent = starred.size;
 }

@@ -413,7 +413,9 @@ body {
 
 @media (max-width: 560px) {
 
-  .category-button.star-index.visible { width: 50px; }
+  .star-slot.visible { width: 50px; }
+  .star-slot { height: 50px; }
+  .category-button.star-index { width: 50px; height: 50px; margin-left: -25px; }
 
   body { padding: 0 12px 40px; }
 
@@ -749,40 +751,50 @@ body.page-about .stats { color: var(--ink); }
    first species is starred, then fades in.
 --------------------------------------------------------- */
 
-/* The button is always in the DOM. Hiding it collapses its width to
-   zero rather than using display:none, because display cannot be
-   transitioned and coming out of it reliably needs a rAF that does not
-   fire when the tab is in the background. Collapsing width keeps the
-   row centred and lets the fade run unconditionally. */
+/* The slot is the flex item and does the collapsing. The button sits
+   centred inside it and the count hangs below - outside the button, so
+   nothing clips it. display is never used, because it cannot be
+   transitioned and recovering from it needs a rAF that does not fire in
+   a background tab. */
 
-.category-button.star-index {
+.star-slot {
   position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  overflow: hidden;
-  color: #d9a441;
-
+  flex: 0 0 auto;
   width: 0;
-  min-width: 0;
+  height: 58px;
   margin-left: -10px;          /* swallow the flex gap while collapsed */
   opacity: 0;
-  transform: scale(.72);
   pointer-events: none;
-
   transition: width .75s cubic-bezier(.2, .8, .3, 1),
               margin-left .75s cubic-bezier(.2, .8, .3, 1),
-              opacity .75s ease,
-              transform .75s cubic-bezier(.2, .8, .3, 1),
-              box-shadow .5s ease;
+              opacity .75s ease;
 }
 
-.category-button.star-index.visible {
+.star-slot.visible {
   width: 58px;
   margin-left: 0;
   opacity: 1;
-  transform: scale(1);
   pointer-events: auto;
+}
+
+.category-button.star-index {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin-left: -29px;          /* centred on the slot at any width */
+  width: 58px;
+  height: 58px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #d9a441;
+  transform: scale(.72);
+  transition: transform .75s cubic-bezier(.2, .8, .3, 1),
+              box-shadow .5s ease;
+}
+
+.star-slot.visible .category-button.star-index {
+  transform: scale(1);
 }
 
 .category-button.star-index svg {
@@ -791,13 +803,13 @@ body.page-about .stats { color: var(--ink); }
   display: block;
 }
 
-.category-button.star-index.visible:hover,
-.category-button.star-index.visible.selected {
+.star-slot.visible .category-button.star-index:hover,
+.star-slot.visible .category-button.star-index.selected {
   box-shadow: 0 0 25px 8px rgba(181, 201, 166, .85);
   transform: scale(1.06);
 }
 
-.category-button.star-index.selected {
+.star-slot.visible .category-button.star-index.selected {
   box-shadow: 0 0 28px 11px rgba(181, 201, 166, 1);
 }
 
