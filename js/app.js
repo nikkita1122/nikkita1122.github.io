@@ -1,3 +1,40 @@
+/* ===========================================================
+   STARRED SPECIES  ("study pile")
+   -----------------------------------------------------------
+   Kept in localStorage, which is a browser API - it works on a
+   static host like GitHub Pages because nothing leaves the
+   device. Keyed on scientific name rather than array position,
+   so a star survives records being added or reordered.
+
+   It is per-browser: stars set on a phone are not on a laptop.
+=========================================================== */
+
+const STAR_KEY = 'wildca-starred';
+
+function loadStarred() {
+  try {
+    const raw = JSON.parse(localStorage.getItem(STAR_KEY) || '[]');
+    return new Set(Array.isArray(raw) ? raw : []);
+  } catch (e) {
+    return new Set();          // corrupt or unavailable -> start empty
+  }
+}
+
+function saveStarred() {
+  try {
+    localStorage.setItem(STAR_KEY, JSON.stringify([...starred]));
+  } catch (e) {
+    /* private browsing can refuse writes; starring still works for
+       the session, it just will not persist */
+  }
+}
+
+let starred = loadStarred();
+let studyMode = false;          // true when the star filter is on
+
+const STAR_PATH = "M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z";
+
+
 const termEl = document.querySelector('.term');
 const definitionEl = document.querySelector('.definition');
 const checkBtn = document.querySelector('.check');
@@ -91,10 +128,42 @@ function showRandomCard() {
       </button>
     </div>`;
 
-  // starring is presentational for now - nothing is stored yet
-  termEl.querySelector('.star-btn')?.addEventListener('click', event => {
-    event.currentTarget.classList.toggle('starred');
-  });
+  // reflect whatever is already saved for this species
+  const starBtn = termEl.querySelector('.star-btn');
+  const key = current['scientific name'];
+
+  if (starBtn) {
+    starBtn.classList.toggle('starred', starred.has(key));
+    starBtn.setAttribute('aria-pressed', starred.has(key));
+
+    starBtn.addEventListener('click', () => {
+      if (starred.has(key)) {
+        starred.delete(key);
+        starBtn.classList.remove('starred');
+      } else {
+        starred.add(key);
+        starBtn.classList.add('starred');
+      }
+      starBtn.setAttribute('aria-pressed', starred.has(key));
+      saveStarred();
+      refreshStarUI();
+
+      // in study mode an unstarred card no longer belongs here,
+      // so let it go and move on
+      if (studyMode && !starred.has(key)) {
+        document.querySelector('.card')?.classList.add('dissolving');
+        setTimeout(() => {
+          document.querySelector('.card')?.classList.remove('dissolving');
+          if (starred.size === 0) {
+            exitStudyMode();
+          } else {
+            updateFilteredFlashcards();
+            showRandomCard();
+          }
+        }, 260);
+      }
+    });
+  }
 
   // fade in once decoded, so there is no flash of empty frame
   const cardImg = termEl.querySelector('.flashcard-img');
@@ -188,6 +257,12 @@ categoryButtons.forEach(button => {
 
 // 🔍 Update filteredFlashcards based on selectedCategories
 function updateFilteredFlashcards() {
+  // the star filter is exclusive - it replaces category selection
+  if (studyMode) {
+    filteredFlashcards = flashcards.filter(c => starred.has(c['scientific name']));
+    return;
+  }
+
   if (selectedCategories.size === 0) {
     filteredFlashcards = [...flashcards];
     return;
@@ -272,3 +347,77 @@ helpModal.addEventListener('click', event => {
 document.addEventListener('keydown', event => {
   if (event.key === 'Escape' && !helpModal.hidden) closeHelp();
 });
+
+
+/* ===========================================================
+   STAR INDEX BUTTON
+   Appears with the first star, sits last in the row, and the
+   flex row recentres itself.
+=========================================================== */
+
+const categoryRow = document.querySelector('.category-buttons');
+
+const starIndexBtn = document.createElement('button');
+starIndexBtn.className = 'category-button star-index';
+starIndexBtn.setAttribute('data-category', 'starred');
+starIndexBtn.setAttribute('aria-label', 'Show only starred species');
+starIndexBtn.title = 'Your study pile';
+starIndexBtn.innerHTML =
+  `<svg viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="${STAR_PATH}"/></svg>
+   <span class="star-count"></span>`;
+categoryRow.appendChild(starIndexBtn);
+
+
+function refreshStarUI() {
+  const n = starred.size;
+
+  starIndexBtn.classList.toggle('visible', n > 0);
+  starIndexBtn.querySelector('.star-count').textContent = n > 0 ? n : '';
+
+  // no stars left means nothing to study
+  if (n === 0 && studyMode) exitStudyMode();
+}
+
+
+function enterStudyMode() {
+  studyMode = true;
+  starIndexBtn.classList.add('selected');
+  categoryRow.classList.add('study-mode');
+
+  // the star filter replaces any category selection
+  selectedCategories.clear();
+  categoryButtons.forEach(b => b.classList.remove('selected'));
+
+  updateFilteredFlashcards();
+  showRandomCard();
+}
+
+
+function exitStudyMode() {
+  studyMode = false;
+  starIndexBtn.classList.remove('selected');
+  categoryRow.classList.remove('study-mode');
+  updateFilteredFlashcards();
+  showRandomCard();
+}
+
+
+starIndexBtn.addEventListener('click', () => {
+  if (!starred.size) return;
+  studyMode ? exitStudyMode() : enterStudyMode();
+});
+
+
+// a greyed-out category button leaves study mode and applies itself
+categoryButtons.forEach(button => {
+  button.addEventListener('click', () => {
+    if (studyMode) {
+      studyMode = false;
+      starIndexBtn.classList.remove('selected');
+      categoryRow.classList.remove('study-mode');
+    }
+  }, true);        // capture, so this runs before the existing handler
+});
+
+
+refreshStarUI();

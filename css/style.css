@@ -739,3 +739,91 @@ body.page-taxonomy{ background: var(--cream); color: var(--ink); }
 
 .project-light-bg .stats,
 body.page-about .stats { color: var(--ink); }
+
+
+/* ---------------------------------------------------------
+   STAR INDEX BUTTON  ("study pile")
+   Same shape and halo as the other filters. Hidden until the
+   first species is starred, then fades in.
+--------------------------------------------------------- */
+
+.category-button.star-index {
+  position: relative;
+  display: none;
+  color: #d9a441;
+  opacity: 0;
+  transform: scale(.7);
+  transition: opacity .3s ease, transform .3s ease,
+              box-shadow .5s ease;
+}
+
+.category-button.star-index.visible {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 1;
+  transform: scale(1);
+}
+
+.category-button.star-index svg {
+  width: 27px;
+  height: 27px;
+  display: block;
+}
+
+.category-button.star-index:hover,
+.category-button.star-index.selected {
+  box-shadow: 0 0 25px 8px rgba(181, 201, 166, .85);
+  transform: scale(1.06);
+}
+
+.category-button.star-index.selected {
+  box-shadow: 0 0 28px 11px rgba(181, 201, 166, 1);
+}
+
+/* count sits under the button */
+.star-count {
+  position: absolute;
+  top: calc(100% + 3px);
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: 'Calibri Light', Calibri, 'Segoe UI Light', 'Helvetica Neue', sans-serif;
+  font-weight: 300;
+  font-size: .78rem;
+  line-height: 1;
+  color: #a8a8a8;
+  pointer-events: none;
+}
+
+
+/* ---- study mode: the other filters step back ---- */
+
+.category-buttons.study-mode .category-button:not(.star-index) {
+  opacity: .32;
+  filter: grayscale(1);
+}
+
+.category-buttons.study-mode .category-button:not(.star-index):hover {
+  opacity: .55;
+  box-shadow: var(--shadow-sm);
+  transform: none;
+}
+
+
+/* ---- a card leaving the study pile ---- */
+
+.card.dissolving {
+  opacity: 0;
+  transform: scale(.97);
+  transition: opacity .25s ease, transform .25s ease;
+}
+
+
+/* the count needs a little room beneath the row */
+.category-buttons { padding-bottom: 6px; }
+
+
+@media (prefers-reduced-motion: reduce) {
+  .category-button.star-index,
+  .card.dissolving { transition: none; }
+}
