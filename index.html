@@ -1,127 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet" />
-    <title>Wild California — Native Species Flashcards</title>
-    <meta name="description" content="Learn to identify California's native plants and animals with photo flashcards." />
+
+    <title>Wild California has moved</title>
+
+    <!-- tells browsers to go, and search engines which address is canonical -->
+    <meta http-equiv="refresh" content="0; url=https://wildcalifornia.github.io/" />
+    <link rel="canonical" href="https://wildcalifornia.github.io/" />
+    <meta name="robots" content="noindex" />
 
     <link rel="icon" href="favicon.ico" sizes="any" />
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16.png" />
     <link rel="apple-touch-icon" href="apple-touch-icon.png" />
-    <link href="css/style.css" rel="stylesheet" type="text/css" />
+
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600;700&display=swap" rel="stylesheet" />
+
+    <style>
+        body {
+            margin: 0;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 24px;
+            background: #fff9f5;
+            color: #012b1c;
+            font-family: 'Quicksand', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            text-align: center;
+        }
+
+        main { max-width: 420px; }
+
+        img { width: 76px; height: 76px; }
+
+        h1 { margin: 18px 0 10px; font-size: 1.6rem; }
+
+        p { margin: 0 0 22px; line-height: 1.6; color: #3d5a4b; }
+
+        a.go {
+            display: inline-block;
+            padding: 13px 28px;
+            font-size: 1rem;
+            font-weight: 700;
+            color: #fff9f5;
+            background: #012b1c;
+            border-radius: 999px;
+            text-decoration: none;
+        }
+
+        a.go:hover { background: #024430; }
+    </style>
+
 </head>
 
 <body>
 
-    <!-- Left rail -->
-    <nav class="side-rail">
+    <main>
 
-        <a class="rail-btn heart-btn" href="about.html" aria-label="About this project" title="About this project">
-            <svg viewBox="0 -960 960 960" fill="currentColor" aria-hidden="true">
-                <path d="m480-120-58-52q-101-91-167-157T150-447.5Q111-500 95.5-544T80-634q0-94 63-157t157-63q52 0 99 22t81 62q34-40 81-62t99-22q94 0 157 63t63 157q0 46-15.5 90T810-447.5Q771-395 705-329T538-172l-58 52Z"/>
-            </svg>
-        </a>
+        <img src="icon-192.png" alt="" />
 
-        <a class="rail-btn tax-btn" href="taxonomy.html" aria-label="Taxonomy map" title="Taxonomy map">
-            <img src="images/taxonomy-icon.png" alt="" />
-        </a>
+        <h1>Wild California has moved</h1>
 
-        <button class="rail-btn help-btn" aria-label="How this works" title="How this works">
-            <svg viewBox="0 0 16 16" fill="currentColor" aria-hidden="true">
-                <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M5.496 6.033h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286a.237.237 0 0 0 .241.247m2.325 6.443c.61 0 1.029-.394 1.029-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94 0 .533.425.927 1.01.927z"/>
-            </svg>
-        </button>
+        <p>
+            This project now lives at
+            <strong>wildcalifornia.github.io</strong>.
+            You should be sent there automatically.
+        </p>
 
-    </nav>
+        <a class="go" href="https://wildcalifornia.github.io/">Go to Wild California</a>
 
-    <!-- Category filter -->
-    <div class="category-buttons">
-        <button class="category-button" data-category="plant" title="Plants" aria-label="Plants">🌸</button>
-        <button class="category-button" data-category="fungus" title="Fungi" aria-label="Fungi">🍄</button>
-        <button class="category-button" data-category="mammal" title="Mammals" aria-label="Mammals">🐻</button>
-        <button class="category-button" data-category="bird" title="Birds" aria-label="Birds">🐤</button>
-        <button class="category-button" data-category="reptileamphibian" title="Reptiles &amp; amphibians" aria-label="Reptiles and amphibians">🐸</button>
-        <button class="category-button" data-category="insectarachnid" title="Insects &amp; arachnids" aria-label="Insects and arachnids">🐞</button>
-        <button class="category-button" data-category="aquatic" title="Fish &amp; other sea life" aria-label="Fish and other sea life">🐟</button>
-    </div>
-
-
-    <!-- One card: photo, then species information -->
-    <main class="card">
-        <div class="term"></div>
-        <div class="definition"></div>
     </main>
 
-
-    <!-- Controls -->
-    <div class="button">
-        <button class="check" data-key="Space">✔</button>
-        <button class="next" data-key="→">➜</button>
-    </div>
-
-
-    <!-- Help -->
-    <div class="modal-backdrop" id="helpModal" hidden>
-        <div class="modal" role="dialog" aria-modal="true" aria-labelledby="helpTitle">
-
-            <button class="modal-close" id="helpClose" aria-label="Close">✕</button>
-
-            <h2 id="helpTitle">How this works</h2>
-            <p>A random California species appears. Try to name it, then reveal the answer.</p>
-
-            <h3>Filter by group</h3>
-            <dl>
-                <dt>🌸</dt><dd>Plants &amp; fungi</dd>
-                <dt>🐻</dt><dd>Mammals</dd>
-                <dt>🐤</dt><dd>Birds</dd>
-                <dt>🐸</dt><dd>Reptiles &amp; amphibians</dd>
-                <dt>🐞</dt><dd>Insects &amp; arachnids</dd>
-                <dt>🐟</dt><dd>Fish</dd>
-            </dl>
-            <p style="margin-top:10px">Pick as many as you like. With none selected you get everything.</p>
-
-            <h3>Building a study pile</h3>
-            <dl class="btn-legend">
-                <dt>&#9733;</dt><dd>Tap the star on a photo to save that species</dd>
-                <dt>&#9733;</dt><dd>A gold star joins the row above once you save your first.
-                    The number beneath it is how many you have saved</dd>
-            </dl>
-            <p style="margin-top:10px">
-                Tap that gold star to study only your saved species &mdash; the other
-                filters step back while you do. Tap a photo's star again to take it
-                out of the pile. Empty the pile and the gold star disappears.
-            </p>
-            <p style="margin-top:10px">
-                Your pile is kept in this browser, not in an account, so it will not
-                follow you to another device and private browsing will forget it.
-            </p>
-
-            <h3>Buttons</h3>
-            <dl class="btn-legend">
-                <dt>✔</dt><dd>Reveal the species &mdash; name, scientific name and status</dd>
-                <dt>➜</dt><dd>Next species</dd>
-                <dt>ℹ</dt><dd>Expand the longer description (appears once revealed)</dd>
-            </dl>
-
-            <h3>Keyboard</h3>
-            <dl class="btn-legend">
-                <dt><kbd>space</kbd></dt><dd>Reveal / hide</dd>
-                <dt><kbd>&rarr;</kbd></dt><dd>Next species</dd>
-                <dt><kbd>i</kbd></dt><dd>Expand the description</dd>
-            </dl>
-
-            <h3>Photographs</h3>
-            <p>Every photo is openly licensed and credited on the card. Species
-               introduced to California are included but labelled as such.</p>
-
-        </div>
-    </div>
-
-
-    <script src="js/app.js"></script>
+    <!-- replace rather than assign, so Back does not bounce you here again -->
+    <script>location.replace('https://wildcalifornia.github.io/');</script>
 
 </body>
+
 </html>
