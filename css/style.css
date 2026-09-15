@@ -413,6 +413,8 @@ body {
 
 @media (max-width: 560px) {
 
+  .category-button.star-index.visible { width: 50px; }
+
   body { padding: 0 12px 40px; }
 
   .category-buttons { gap: 8px; margin: 16px auto 20px; }
@@ -747,22 +749,40 @@ body.page-about .stats { color: var(--ink); }
    first species is starred, then fades in.
 --------------------------------------------------------- */
 
+/* The button is always in the DOM. Hiding it collapses its width to
+   zero rather than using display:none, because display cannot be
+   transitioned and coming out of it reliably needs a rAF that does not
+   fire when the tab is in the background. Collapsing width keeps the
+   row centred and lets the fade run unconditionally. */
+
 .category-button.star-index {
   position: relative;
-  display: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
   color: #d9a441;
+
+  width: 0;
+  min-width: 0;
+  margin-left: -10px;          /* swallow the flex gap while collapsed */
   opacity: 0;
-  transform: scale(.7);
-  transition: opacity .3s ease, transform .3s ease,
+  transform: scale(.72);
+  pointer-events: none;
+
+  transition: width .75s cubic-bezier(.2, .8, .3, 1),
+              margin-left .75s cubic-bezier(.2, .8, .3, 1),
+              opacity .75s ease,
+              transform .75s cubic-bezier(.2, .8, .3, 1),
               box-shadow .5s ease;
 }
 
 .category-button.star-index.visible {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  width: 58px;
+  margin-left: 0;
   opacity: 1;
   transform: scale(1);
+  pointer-events: auto;
 }
 
 .category-button.star-index svg {
@@ -771,8 +791,8 @@ body.page-about .stats { color: var(--ink); }
   display: block;
 }
 
-.category-button.star-index:hover,
-.category-button.star-index.selected {
+.category-button.star-index.visible:hover,
+.category-button.star-index.visible.selected {
   box-shadow: 0 0 25px 8px rgba(181, 201, 166, .85);
   transform: scale(1.06);
 }
@@ -783,6 +803,7 @@ body.page-about .stats { color: var(--ink); }
 
 /* count sits under the button */
 .star-count {
+  transition: opacity .4s ease;
   position: absolute;
   top: calc(100% + 3px);
   left: 50%;
@@ -826,4 +847,13 @@ body.page-about .stats { color: var(--ink); }
 @media (prefers-reduced-motion: reduce) {
   .category-button.star-index,
   .card.dissolving { transition: none; }
+}
+
+
+/* the count crossfades rather than snapping to the new number */
+.star-count.fading { opacity: 0; }
+
+@media (prefers-reduced-motion: reduce) {
+  .category-button.star-index,
+  .star-count { transition: none; }
 }

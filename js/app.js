@@ -368,11 +368,38 @@ starIndexBtn.innerHTML =
 categoryRow.appendChild(starIndexBtn);
 
 
+const STAR_FADE_MS  = 750;   // must match the css transition
+const COUNT_FADE_MS = 400;
+
+function showStarButton(show) {
+  // one class, no display juggling and no rAF - the transition runs
+  // even if the tab is in the background
+  starIndexBtn.classList.toggle('visible', show);
+}
+
+let countTimer = null;
+
+function setStarCount(n) {
+  const el = starIndexBtn.querySelector('.star-count');
+  const next = n > 0 ? String(n) : '';
+  if (el.textContent === next) return;
+
+  // starring several in quick succession would otherwise queue
+  // overlapping timers and land on a stale number
+  clearTimeout(countTimer);
+
+  el.classList.add('fading');
+  countTimer = setTimeout(() => {
+    el.textContent = starred.size > 0 ? String(starred.size) : '';
+    el.classList.remove('fading');
+  }, COUNT_FADE_MS);
+}
+
 function refreshStarUI() {
   const n = starred.size;
 
-  starIndexBtn.classList.toggle('visible', n > 0);
-  starIndexBtn.querySelector('.star-count').textContent = n > 0 ? n : '';
+  showStarButton(n > 0);
+  setStarCount(n);
 
   // no stars left means nothing to study
   if (n === 0 && studyMode) exitStudyMode();
@@ -420,4 +447,9 @@ categoryButtons.forEach(button => {
 });
 
 
-refreshStarUI();
+// On load an existing pile should simply be there. Fading it in on
+// every visit would read as a glitch rather than a response.
+if (starred.size) {
+  starIndexBtn.classList.add('visible');
+  starIndexBtn.querySelector('.star-count').textContent = starred.size;
+}
